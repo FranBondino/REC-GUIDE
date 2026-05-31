@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Grabación Premium: Truss en Dos Soles</title>
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* --- DISEÑO DEL SISTEMA DE ESTILOS (VANILLA CSS) --- */
+        :root {
+            --bg-dark: #0b0f19;
+            --bg-card: rgba(22, 28, 45, 0.7);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --accent-gold: #d97706; /* Truss Gold */
+            --accent-gold-glow: rgba(217, 119, 6, 0.4);
+            --accent-green: #10b981;
+            --accent-blue: #3b82f6;
+            --accent-purple: #8b5cf6;
+            --glass-blur: blur(16px);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding-bottom: 80px;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+        }
+
+        /* --- HEADER PREMIUM --- */
+        .premium-header {
+            position: relative;
+            background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 100%);
+            padding: 50px 24px;
+            text-align: center;
+            border-bottom: 1px solid var(--border-color);
+            overflow: hidden;
+        }
+
+        .premium-header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(217, 119, 6, 0.1) 0%, transparent 60%);
+            pointer-events: none;
+            animation: pulse 10s infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.1); }
+        }
+
+        .brand-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(217, 119, 6, 0.15);
+            border: 1px solid var(--accent-gold);
+            color: #f59e0b;
+            padding: 6px 16px;
+            border-radius: 100px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 20px;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .premium-header h1 {
+            font-size: 2.3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ffffff 0%, #fbbf24 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+            letter-spacing: -0.02em;
+        }
+
+        .premium-header p {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            max-width: 600px;
+            margin: 0 auto;
+            font-weight: 300;
+        }
+
+        .actions-bar {
+            margin-top: 25px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent-gold) 0%, #b45309 100%);
+            color: #fff;
+            border: none;
+            box-shadow: 0 4px 20px rgba(217, 119, 6, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(217, 119, 6, 0.5);
+        }
+
+        /* --- CONTENEDOR PRINCIPAL --- */
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 24px;
+        }
+
+        /* --- SECCIÓN CONCEPTOS SIMPLIFICADOS --- */
+        .concept-intro {
+            margin-bottom: 35px;
+        }
+
+        .section-title {
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            color: #fff;
+            border-left: 4px solid var(--accent-gold);
+            padding-left: 15px;
+            letter-spacing: -0.01em;
+        }
+
+        .analogies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 15px;
+        }
+
+        .analogy-card {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 100%);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 24px;
+            transition: var(--transition);
+        }
+
+        .analogy-card:hover {
+            border-color: rgba(255, 255, 255, 0.15);
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .analogy-icon {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+
+        .analogy-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 8px;
+            color: #fff;
+        }
+
+        .analogy-tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--accent-gold);
+            background: rgba(217, 119, 6, 0.1);
+            padding: 3px 10px;
+            border-radius: 5px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+        }
+
+        .analogy-card p {
+            color: var(--text-secondary);
+            font-size: 0.92rem;
+        }
+
+        /* --- TABS --- */
+        .tabs {
+            display: flex;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 6px;
+            gap: 5px;
+            margin-bottom: 30px;
+            overflow-x: auto;
+        }
+
+        .tab-btn {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 14px 20px;
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            font-size: 0.95rem;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: var(--transition);
+            white-space: nowrap;
+        }
+
+        .tab-btn:hover {
+            color: var(--text-primary);
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .tab-btn.active {
+            color: #fff;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        /* --- TAB CONTENT --- */
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.4s ease;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* --- GLASS CARD --- */
+        .glass-card {
+            background: var(--bg-card);
+            backdrop-filter: var(--glass-blur);
+            -webkit-backdrop-filter: var(--glass-blur);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+
+        .card-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            border-radius: 14px;
+            background: rgba(217, 119, 6, 0.1);
+            color: var(--accent-gold);
+            border: 1px solid rgba(217, 119, 6, 0.2);
+        }
+
+        .card-header h2 {
+            font-size: 1.5rem;
+            letter-spacing: -0.01em;
+        }
+
+        /* --- LEGO DE CONEXIÓN (ASCII ART STYLED) --- */
+        .lego-connector {
+            background: #060913;
+            border: 1px dashed rgba(217, 119, 6, 0.3);
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.85rem;
+            color: #a7f3d0;
+            overflow-x: auto;
+            white-space: pre;
+            line-height: 1.25;
+        }
+
+        /* --- DISPOSITIVOS GRID --- */
+        .devices-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .device-card {
+            background: rgba(255,255,255,0.02);
+            border: 1px solid var(--border-color);
+            border-radius: 18px;
+            padding: 24px;
+            transition: var(--transition);
+        }
+
+        .device-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(217, 119, 6, 0.3);
+            background: rgba(255,255,255,0.03);
+        }
+
+        .device-card h3 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+
+        .steps-list {
+            list-style: none;
+        }
+
+        .steps-list li {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 14px;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        .steps-list li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 6px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: rgba(217, 119, 6, 0.1);
+            border: 2px solid var(--accent-gold);
+        }
+
+        .steps-list li span {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .alert-box {
+            background: rgba(217, 119, 6, 0.08);
+            border-left: 4px solid var(--accent-gold);
+            border-radius: 8px;
+            padding: 15px 20px;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: #fbbf24;
+        }
+
+        /* --- GRID DE TRANSICIONES MEJORADO --- */
+        .transitions-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            margin-top: 20px;
+        }
+
+        .transition-item-card {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            padding: 30px;
+            align-items: center;
+        }
+
+        .transition-text-content {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .transition-text-content h3 {
+            font-size: 1.4rem;
+            color: var(--accent-gold);
+            border-left: 4px solid var(--accent-purple);
+            padding-left: 12px;
+        }
+
+        .transition-step-box {
+            background: rgba(0,0,0,0.25);
+            padding: 15px;
+            border-radius: 12px;
+            border-left: 3px solid var(--accent-blue);
+        }
+
+        .transition-step-box h4 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            margin-bottom: 5px;
+            letter-spacing: 0.05em;
+        }
+
+        .transition-step-box p {
+            font-size: 0.9rem;
+            color: var(--text-primary);
+        }
+
+        .transition-image-container img {
+            width: 100%;
+            border-radius: 14px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+            transition: var(--transition);
+        }
+
+        .transition-image-container img:hover {
+            transform: scale(1.02);
+        }
+
+        @media (max-width: 800px) {
+            .transition-item-card {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* --- TIRA CÓMICA DE TRANSICIÓN --- */
+        .comic-strip {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 25px 0;
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            border-radius: 18px;
+        }
+
+        .comic-panel {
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 14px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .comic-panel h4 {
+            color: var(--accent-gold);
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+        }
+
+        .comic-art {
+            border: 1px dashed rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            font-family: monospace;
+            font-size: 0.8rem;
+            white-space: pre-wrap;
+            background: #040810;
+            color: #fbbf24;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        .comic-panel p {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            text-align: left;
+        }
+
+        .comic-panel p span {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        /* --- INTERACTIVE CHECKLIST GRID SYSTEM --- */
+        .checklist {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .checklist h3 {
+            margin-top: 25px;
+            color: #fff;
+            font-size: 1.2rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        .checklist-item-card {
+            display: grid;
+            grid-template-columns: 24px 1fr 200px;
+            gap: 20px;
+            padding: 20px;
+            background: rgba(255,255,255,0.02);
+            border: 1px solid var(--border-color);
+            border-radius: 18px;
+            align-items: center;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .checklist-item-card:hover {
+            background: rgba(255,255,255,0.04);
+            border-color: rgba(217, 119, 6, 0.3);
+        }
+
+        .checklist-item-card input[type="checkbox"] {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 24px;
+            height: 24px;
+            border: 2px solid var(--text-secondary);
+            border-radius: 8px;
+            outline: none;
+            cursor: pointer;
+            transition: var(--transition);
+            position: relative;
+            margin-top: 0;
+        }
+
+        .checklist-item-card input[type="checkbox"]:checked {
+            background-color: var(--accent-green);
+            border-color: var(--accent-green);
+        }
+
+        .checklist-item-card input[type="checkbox"]:checked::after {
+            content: '✓';
+            position: absolute;
+            color: #fff;
+            font-size: 15px;
+            font-weight: bold;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .checklist-desc-box h4 {
+            font-size: 1.1rem;
+            color: #fff;
+            margin-bottom: 5px;
+            transition: var(--transition);
+        }
+
+        .checklist-desc-box p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            transition: var(--transition);
+        }
+
+        .checklist-item-image img {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+        }
+
+        /* Estado completado */
+        .checklist-item-card.checked {
+            border-color: rgba(16, 185, 129, 0.2);
+            background: rgba(16, 185, 129, 0.03);
+        }
+
+        .checklist-item-card.checked h4 {
+            text-decoration: line-through;
+            color: var(--text-secondary);
+        }
+
+        .checklist-item-card.checked p {
+            text-decoration: line-through;
+            color: rgba(156, 163, 175, 0.5);
+        }
+
+        .checklist-item-card.checked .checklist-item-image img {
+            opacity: 0.5;
+            filter: grayscale(100%);
+        }
+
+        @media (max-width: 768px) {
+            .checklist-item-card {
+                grid-template-columns: 24px 1fr;
+                gap: 15px;
+            }
+            .checklist-item-image {
+                grid-column: span 2;
+            }
+            .checklist-item-image img {
+                height: 160px;
+            }
+        }
+
+        /* --- B-ROLL EXPLAINED --- */
+        .broll-explainer {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(139, 92, 246, 0.05) 100%);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 18px;
+            padding: 20px;
+            margin-bottom: 25px;
+            font-size: 0.9rem;
+        }
+
+        .broll-explainer h4 {
+            color: var(--accent-blue);
+            font-size: 1.05rem;
+            margin-bottom: 6px;
+        }
+
+        /* --- CRONOGRAMA TIMELINE --- */
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+            margin-top: 20px;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 8px;
+            top: 0;
+            width: 2px;
+            height: 100%;
+            background: var(--border-color);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -29px;
+            top: 6px;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: var(--bg-dark);
+            border: 3px solid var(--accent-gold);
+            z-index: 2;
+        }
+
+        .timeline-time {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            color: var(--accent-gold);
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+
+        .timeline-title {
+            font-size: 1.1rem;
+            color: #fff;
+            margin-bottom: 8px;
+        }
+
+        .timeline-desc {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* --- ESTILOS DE IMPRESIÓN / PDF --- */
+        @media print {
+            body {
+                background: #fff !important;
+                color: #111827 !important;
+                font-size: 11pt;
+                padding-bottom: 0;
+            }
+
+            .premium-header {
+                background: #fff !important;
+                color: #000 !important;
+                border-bottom: 2px solid #000;
+                padding: 30px 0;
+            }
+
+            .premium-header h1 {
+                background: none !important;
+                -webkit-text-fill-color: #000 !important;
+                color: #000 !important;
+                font-size: 24pt;
+            }
+
+            .premium-header p, .brand-badge, .actions-bar, .tabs, .concept-intro, .lego-connector, .comic-strip {
+                display: none !important;
+            }
+
+            .tab-content {
+                display: block !important;
+                page-break-after: always;
+                opacity: 1 !important;
+                transform: none !important;
+            }
+
+            .glass-card {
+                background: #fff !important;
+                border: 1px solid #ddd !important;
+                box-shadow: none !important;
+                border-radius: 0 !important;
+                padding: 20px 0 !important;
+                page-break-inside: avoid;
+            }
+
+            .device-card, .flow-card, .checklist-item-card, .flow-step, .transition-item-card {
+                background: #fff !important;
+                border: 1px solid #ddd !important;
+                color: #000 !important;
+                border-radius: 0 !important;
+                page-break-inside: avoid;
+            }
+
+            .steps-list li, .flow-step p, .timeline-desc, .checklist-desc-box p {
+                color: #4b5563 !important;
+            }
+
+            h2, h3, h4 {
+                color: #000 !important;
+            }
+
+            .checklist-item-card input[type="checkbox"] {
+                border: 1px solid #000 !important;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- --- HEADER PREMIUM --- -->
+    <header class="premium-header">
+        <div class="brand-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            TRUSS • DOS SOLES
+        </div>
+        <h1>MANUAL DE PRODUCCIÓN MÓVIL</h1>
+        <p>Capacitación Express e Ilustrada para Historias de Impacto</p>
+        
+        <div class="actions-bar">
+            <button class="btn btn-primary" onclick="window.print()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/></svg>
+                Exportar a PDF / Imprimir Manual
+            </button>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- --- SECCIÓN CONCEPTOS BÁSICOS / INTRODUCCIÓN --- -->
+        <section class="concept-intro">
+            <h2 class="section-title">El Concepto Básico (Entendiéndolo en Fácil)</h2>
+            <p style="color: var(--text-secondary); margin-bottom: 20px; font-weight: 300;">Antes de armar los equipos, comprende qué hace cada uno a través de estas sencillas analogías. Perderás el miedo de inmediato.</p>
+            
+            <div class="analogies-grid">
+                <!-- Analogy 1 -->
+                <div class="analogy-card">
+                    <div class="analogy-icon">🐔</div>
+                    <span class="analogy-tag">DJI Osmo Mobile</span>
+                    <h3>La Cabeza de Gallina</h3>
+                    <p>Las gallinas tienen la capacidad natural de mantener su cabeza completamente inmóvil en el aire aunque muevas su cuerpo. Eso hace el gimbal: <strong>absorbe tus pasos y temblores</strong> para que tus tomas floten como en el cine.</p>
+                </div>
+                <!-- Analogy 2 -->
+                <div class="analogy-card">
+                    <div class="analogy-icon">📞</div>
+                    <span class="analogy-tag">DJI Mic</span>
+                    <h3>El Tubo de Teléfono</h3>
+                    <p>El salón técnico estará lleno de secadores de pelo, música y murmullos. Grabar con el micrófono del celular generará ruido desagradable. El DJI Mic funciona como hablar directamente a un <strong>auricular de teléfono</strong>: voz súper limpia sin ruidos.</p>
+                </div>
+                <!-- Analogy 3 -->
+                <div class="analogy-card">
+                    <div class="analogy-icon">🎬</div>
+                    <span class="analogy-tag">Samsung S22+</span>
+                    <h3>La Cámara a 60 FPS</h3>
+                    <p>Al configurar el video a 60 cuadros por segundo, capturas el doble de imágenes en un segundo. Esto te permite "estirar" el tiempo en la edición (CapCut) para crear <strong>cámaras lentas ultra sedosas y estéticas</strong> del cabello.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- --- MENÚ TABS --- -->
+        <nav class="tabs">
+            <button class="tab-btn active" onclick="switchTab('config')">⚙️ Configuración</button>
+            <button class="tab-btn" onclick="switchTab('transiciones')">🎬 Transiciones</button>
+            <button class="tab-btn" onclick="switchTab('shotlist')">📸 Shot List</button>
+            <button class="tab-btn" onclick="switchTab('cronograma')">📅 Cronograma</button>
+            <button class="tab-btn" onclick="switchTab('redes')">📱 Estrategia Instagram</button>
+        </nav>
+
+        <!-- --- TAB: CONFIGURACIÓN --- -->
+        <div id="config" class="tab-content active">
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-icon">🧩</div>
+                    <h2>Lego de Conexión Física (¿Cómo se Ensambla?)</h2>
+                </div>
+                <p style="color: var(--text-secondary); margin-bottom: 20px;">Sigue este sencillo esquema de montaje paso a paso en el orden indicado:</p>
+
+                <div class="lego-connector">
+[PASO 1: LA PINZA]                  [PASO 2: EL MICRÓFONO]             [PASO 3: ACOPLE MAGNÉTICO]
+ _______________________             _______________________            _______________________
+|      [ Cámara ]       |           |                       |          |   [ DJI Osmo Mobile ] |
+|           ▲           |           |                       |          |         ||            |
+|     =====(o)=====     |           |_______________________|          |      ( Imán )         |
+|   Pinza Magnética     |                   [ USB-C ]                  |         ||            |
+|   (Flecha hacia arriba|                      ||                      |   ======(o)======     |
+|_______________________|           [=======================]          |   [ S22+ en Pinza ]   |
+                                    [ Receptor DJI Mic      ]          |_______________________|
+                                    [ (En la base del celu) ]
+                </div>
+
+                <!-- IMAGEN REALISTA INSERCIÓN -->
+                <div style="margin: 30px 0; text-align: center; page-break-inside: avoid; background: rgba(0,0,0,0.15); padding: 25px; border-radius: 18px; border: 1px solid var(--border-color);">
+                    <h4 style="margin-bottom: 12px; font-size: 0.95rem; text-transform: uppercase; color: var(--accent-gold); letter-spacing: 0.05em;">Referencia Visual Fotorrealista del Kit Ensamblado</h4>
+                    <img src="mobile_rig_setup_1780172714901.png" alt="Conexión de Celular, Gimbal y Micrófono" style="width: 100%; max-width: 550px; border-radius: 14px; border: 1px solid var(--border-color); box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+                    <p style="font-size: 0.88rem; color: var(--text-secondary); margin-top: 15px; max-width: 650px; margin-left: auto; margin-right: auto; text-align: left; line-height: 1.5;">
+                        <strong>⚠️ EL SECRETO CLAVE:</strong> El celular (1º) y el estabilizador (2º) <strong>NO se enchufan entre sí con ningún cable</strong>. El estabilizador lo sostiene solo de forma magnética y mecánica. El único aparato que va enchufado físicamente con un conector es el receptor del micrófono (el DJI Mic) que se inserta en el puerto USB-C (en la base del celular).
+                    </p>
+                </div>
+                
+                <div class="devices-grid">
+                    <!-- Samsung Card -->
+                    <div class="device-card">
+                        <h3>1. Samsung Galaxy S22+</h3>
+                        <ul class="steps-list">
+                            <li>Abre la aplicación de <span>Cámara</span>.</li>
+                            <li>Toca el engranaje de <span>Ajustes</span>.</li>
+                            <li>Busca <span>Líneas de cuadrícula</span> y actívala (ayuda a encuadrar).</li>
+                            <li><span>Desactiva</span> "Estabilización de video" integrada (evita saltos con el gimbal).</li>
+                            <li>Ajusta la calidad de video a <span>FHD a 60 FPS</span> (cuadros por segundo).</li>
+                        </ul>
+                    </div>
+
+                    <!-- Gimbal Card -->
+                    <div class="device-card">
+                        <h3>2. DJI Osmo Mobile</h3>
+                        <ul class="steps-list">
+                            <li>Coloca la pinza magnética en el <span>centro exacto</span> de tu S22+.</li>
+                            <li>La flecha en la pinza debe apuntar a la <span>cámara del teléfono</span>.</li>
+                            <li>Acopla el imán de la pinza con el del brazo del Osmo.</li>
+                            <li>Despliega el brazo para que se <span>encienda y nivele</span> solo.</li>
+                            <li>Presiona el botón "M" hasta activar el modo de seguimiento <span>FPV</span>.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DJI Mic Card -->
+                    <div class="device-card">
+                        <h3>3. DJI Mic (Audio)</h3>
+                        <ul class="steps-list">
+                            <li>Conecta el adaptador USB-C en la base del <span>Receptor</span>.</li>
+                            <li>Enchufa el receptor en el puerto de carga de tu S22+.</li>
+                            <li>Saca un transmisor (micrófono) y <span>verifícalo encendido</span>.</li>
+                            <li>⚠️ Coloca y gira el cortavientos de felpa peluda (<span>Deadcat</span>).</li>
+                            <li>Sujeta el micrófono al peluquero a la altura del <span>pecho</span>.</li>
+                        </ul>
+                        <div class="alert-box">
+                            <strong>⚠️ Muy Importante:</strong> El viento de los secadores arruina el audio inalámbrico. ¡Usa siempre el cortavientos de felpa peluda!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- --- TAB: TRANSICIONES --- -->
+        <div id="transiciones" class="tab-content">
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-icon">🎬</div>
+                    <h2>Transiciones Físicas Explicadas e Ilustradas</h2>
+                </div>
+                <p style="color: var(--text-secondary); margin-bottom: 20px;">Las transiciones espectaculares se graban en la vida real, no en la computadora. Observa detalladamente el texto de cada una y su correspondiente imagen explicativa justo al lado:</p>
+
+                <div class="transitions-grid">
+                    <!-- Transition 1: Whip Pan -->
+                    <div class="transition-item-card">
+                        <div class="transition-text-content">
+                            <h3>1. El Látigo Rápido (Whip Pan)</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.95rem;">Une dos planos en diferentes locaciones simulando un giro de cabeza ultrarrápido (efecto borroso). Es ideal para viajar del salón de teñido al lavacabezas.</p>
+                            
+                            <div class="transition-step-box">
+                                <h4>Paso 1 (Clip A - Aplicación)</h4>
+                                <p>Graba 5 segundos estables. Al terminar, gira tu muñeca bruscamente hacia la derecha. El video se volverá borroso. Corta ahí.</p>
+                            </div>
+                            <div class="transition-step-box">
+                                <h4>Paso 2 (Clip B - Lavacabezas)</h4>
+                                <p>En el lavacabezas, dale a grabar y gira inmediatamente el celu rápido de izquierda a derecha, frenando frente a la modelo.</p>
+                            </div>
+                        </div>
+                        <div class="transition-image-container">
+                            <img src="whip_pan_transition_1780173293686.png" alt="Referencia Whip Pan">
+                        </div>
+                    </div>
+
+                    <!-- Transition 2: Lens Block -->
+                    <div class="transition-item-card">
+                        <div class="transition-text-content">
+                            <h3>2. El Bloqueo de Lente (Lens Block)</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.95rem;">El peluquero empuja el frasco de Truss hasta cubrir por completo la cámara de tu celular, dejando la pantalla en negro (Corte 1). Luego, la toma de la modelo finalizada inicia con el envase pegado y se aleja rápidamente para revelar el look brillante.</p>
+                            
+                            <div class="transition-step-box">
+                                <h4>Paso 1 (Clip A - El Proceso)</h4>
+                                <p>Graba la aplicación. El estilista empuja la botella de Truss hacia la lente hasta taparla por completo (pantalla a negro). Cortas el video.</p>
+                            </div>
+                            <div class="transition-step-box">
+                                <h4>Paso 2 (Clip B - La Revelación)</h4>
+                                <p>Ya con el cabello seco y terminado, inicia grabando con la botella pegada a la lente (pantalla negra) y aléjala rápido hacia atrás.</p>
+                            </div>
+                        </div>
+                        <div class="transition-image-container">
+                            <img src="lens_block_transition_1780173310089.png" alt="Referencia Lens Block">
+                        </div>
+                    </div>
+
+                    <!-- Transition 3: Bokeh Blur -->
+                    <div class="transition-item-card">
+                        <div class="transition-text-content">
+                            <h3>3. El Desenfoque de Lente (Bokeh / Focus Fade)</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.95rem;">Una transición sumamente suave, elegante y de estilo publicitario. Une dos planos a través de un desenfoque artístico de luces en el salón, creando burbujas doradas (bokeh) antes de revelar la nitidez del look final.</p>
+                            
+                            <div class="transition-step-box">
+                                <h4>Paso 1 (Clip A - El Proceso)</h4>
+                                <p>Al terminar la toma del lavado o coloración, toca la pantalla de tu celular en el extremo inferior o acerca la lente a un objeto cercano para forzar un desenfoque total de la modelo.</p>
+                            </div>
+                            <div class="transition-step-box">
+                                <h4>Paso 2 (Clip B - La Revelación)</h4>
+                                <p>Con la modelo ya peinada y brillante, inicia la grabación desenfocando la lente deliberadamente y luego toca la cara o el cabello para que el autoenfoque del S22+ recupere la nitidez total en un segundo.</p>
+                            </div>
+                        </div>
+                        <div class="transition-image-container">
+                            <img src="truss_bokeh_blur_1780242514476.png" alt="Referencia Bokeh Blur">
+                        </div>
+                    </div>
+
+                    <!-- Transition 4: Spin Vortex -->
+                    <div class="transition-item-card">
+                        <div class="transition-text-content">
+                            <h3>4. El Giro de Vórtice (Spin / Roll Transition)</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.95rem;">Una transición de alto impacto físico que utiliza una rotación rápida del gimbal para generar un efecto vórtice que viaja fluidamente entre el proceso técnico de teñido y el cabello ya modelado.</p>
+                            
+                            <div class="transition-step-box">
+                                <h4>Paso 1 (Clip A - Mezcla o Aplicación)</h4>
+                                <p>Graba la toma estable. Justo al terminar, usa el joystick del DJI Osmo o gira tu muñeca bruscamente hacia la izquierda girando la cámara 180° completos sobre su eje. Corta ahí.</p>
+                            </div>
+                            <div class="transition-step-box">
+                                <h4>Paso 2 (Clip B - El Resultado)</h4>
+                                <p>Con la modelo finalizada en la silla, empieza a grabar girando el gimbal rápidamente hacia la izquierda y estabilízalo al instante (completando los últimos 180° del giro) frente al cabello brillante.</p>
+                            </div>
+                        </div>
+                        <div class="transition-image-container">
+                            <img src="truss_spin_blur_1780242533664.png" alt="Referencia Spin Vortex">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Comic Strip de Lens Block -->
+                <h3 style="margin-top: 40px; color: #fff;">Esquema Técnico de Transición (Lens Block)</h3>
+                <div class="comic-strip">
+                    <!-- Panel 1 -->
+                    <div class="comic-panel">
+                        <h4>Escena A: El Cabello "Antes"</h4>
+                        <div class="comic-art">
+  📱 [Cámara]  <====  [ENVASADO TRUSS]
+                      (El estilista empuja
+                       el envase al celu)
+                        
+  [ PANTALLA NEGRA - CORTE ]
+                        </div>
+                        <p>Graba la aplicación y pídele al estilista que empuje la botella de Truss hacia el teléfono rápidamente hasta <span>tapar la lente por completo</span>. Corta el video ahí.</p>
+                    </div>
+                    <!-- Panel 2 -->
+                    <div class="comic-panel">
+                        <h4>Escena B: El Cabello "Después"</h4>
+                        <div class="comic-art">
+  📱 [Cámara]  ====>  [ENVASADO TRUSS]
+                      (Se retira el envase
+                       hacia atrás rápido)
+                        
+  [ REVELACIÓN DE MODELO ]
+                        </div>
+                        <p>Con la modelo ya peinada y brillante, inicia la toma con el envase <span>pegado a la cámara</span> (pantalla negra) y pídele que lo retire rápido hacia atrás para revelar el look final.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- --- TAB: SHOT LIST --- -->
+        <div id="shotlist" class="tab-content">
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-icon">📸</div>
+                    <h2>Lista de Tomas Interactivas (Shot List)</h2>
+                </div>
+                
+                <div class="broll-explainer">
+                    <h4>💡 ¿Qué es un "B-Roll" de forma sencilla?</h4>
+                    <p>Es una **toma de apoyo corta** (de 3 a 5 segundos) donde no hay nadie hablando. Solo grabas acciones, movimientos, texturas o sonrisas para luego mezclarlas con una música bonita en Instagram o CapCut.</p>
+                </div>
+
+                <p style="color: var(--text-secondary); margin-bottom: 20px;">Observa a la derecha de cada toma técnica e interactiva su foto de referencia correspondiente para emular el plano exacto:</p>
+
+                <div class="checklist">
+                    <h3>🏢 Contexto & Introducción (El Gancho)</h3>
+                    
+                    <!-- Entrada Dinámica -->
+                    <div class="checklist-item-card" onclick="toggleCheck(this)">
+                        <input type="checkbox">
+                        <div class="checklist-desc-box">
+                            <h4>La Entrada Dinámica</h4>
+                            <p>Camina con paso firme y suave entrando al centro técnico de Dos Soles con el gimbal apuntando al frente.</p>
+                        </div>
+                        <div class="checklist-item-image">
+                            <img src="truss_salon_entry_1780242038337.png" alt="Entrada">
+                        </div>
+                    </div>
+
+                    <!-- El Peluquero Estrella -->
+                    <div class="checklist-item-card" onclick="toggleCheck(this)">
+                        <input type="checkbox">
+                        <div class="checklist-desc-box">
+                            <h4>El Peluquero Estrella (Testimonio)</h4>
+                            <p>Plano medio del peluquero ordenando los frascos Truss en la mesa, presentándose con su micrófono DJI colocado en la remera.</p>
+                        </div>
+                        <div class="checklist-item-image">
+                            <img src="truss_stylist_interview_1780174079614.png" alt="Peluquero Estrella">
+                        </div>
+                    </div>
+
+                    <!-- El Altar de Truss -->
+                    <div class="checklist-item-card" onclick="toggleCheck(this)">
+                        <input type="checkbox">
+                        <div class="checklist-desc-box">
+                            <h4>El Altar de Truss</h4>
+                            <p>Tomas lentas y en paneo lateral de la línea premium de Truss perfectamente ordenados bajo las luces del salón.</p>
+                        </div>
+                        <div class="checklist-item-image">
+                            <img src="truss_product_altar_1780242054605.png" alt="Altar Truss">
+                        </div>
+                    </div>
+
+                    <h3 style="margin-top: 30px;">🧪 El Proceso Técnico (Detalles y Texturas)</h3>
+                    
+                    <!-- La Alquimia -->
+                    <div class="checklist-item-card" onclick="toggleCheck(this)">
+                        <input type="checkbox">
+                        <div class="checklist-desc-box">
+                            <h4>La Alquimia (Mezcla de color)</h4>
+                            <p>Plano macro del bowl de mezcla cremosa del color Truss batida con el pincel. Muestra los brillos y texturas del producto.</p>
+                        </div>
+                        <div class="checklist-item-image">
+                            <img src="truss_mixing_texture_1780174043003.png" alt="Mezcla de Color">
+                        </div>
+                    </div>
+
+                    <!-- Aplicación -->
+                    <div class="checklist-item-card" onclick="toggleCheck(this)">
+                        <input type="checkbox">
+                        <div class="checklist-desc-box">
+                            <h4>Aplicación Técnica</h4>
+                            <p>Planos cortos de la mano del peluquero aplicando la crema sobre los mechones de la modelo con pinceladas precisas.</p>
+                        </div>
+                        <div class="checklist-item-image">
+                            <img src="truss_hair_shot_1780172733387.png" alt="Aplicación de Color">
+                        </div>
+                    </div>
+
+                    <h3 style="margin-top: 30px;">💦 Lavado y Sensorial</h3>
+                    
+                    <!-- Lavado Cenital -->
+                    <div class="checklist-item-card" onclick="toggleCheck(this)">
+                        <input type="checkbox">
+                        <div class="checklist-desc-box">
+                            <h4>El Lavado Cenital</h4>
+                            <p>La caída del agua tibia y la espuma blanca del champú Truss sobre la cabellera de la modelo mojada, en cámara lenta.</p>
+                        </div>
+                        <div class="checklist-item-image">
+                            <img src="truss_washing_sensorial_1780174061682.png" alt="Lavado Cenital">
+                        </div>
+                    </div>
+
+                    <h3 style="margin-top: 30px;">✨ Secado & Revelación ("Después")</h3>
+                    
+                    <!-- Viento en Cámara Lenta -->
+                    <div class="checklist-item-card" onclick="toggleCheck(this)">
+                        <input type="checkbox">
+                        <div class="checklist-desc-box">
+                            <h4>El Secado y Brillo Espejo</h4>
+                            <p>El aire del secador volando los mechones a contraluz. Muestra el cabello sedoso, ultra brillante y con el característico "brillo espejo" de Truss sin frizz.</p>
+                        </div>
+                        <div class="checklist-item-image">
+                            <img src="truss_before_after_1780173087430.png" alt="Brillo Espejo Truss">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- --- TAB: CRONOGRAMA --- -->
+        <div id="cronograma" class="tab-content">
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-icon">📅</div>
+                    <h2>Cronograma del Lunes</h2>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-time">08:30</div>
+                        <h3 class="timeline-title">Llegada e Inspección de Luces</h3>
+                        <p class="timeline-desc">Identifica los mejores ventanales con luz natural y las zonas óptimas del salón. Encuentra un enchufe libre para tu batería.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">08:45</div>
+                        <h3 class="timeline-title">Pruebas Críticas de Audio</h3>
+                        <p class="timeline-desc">Coloca el DJI Mic al peluquero y haz una grabación de prueba de 10 segundos. Ponte auriculares y comprueba que la voz se escuche limpia.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">09:00</div>
+                        <h3 class="timeline-title">Fase Inicial ("Antes")</h3>
+                        <p class="timeline-desc">Registra las fotos y videos de la modelo tal como llega. Graba el altar de exhibición de productos Truss.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">09:30</div>
+                        <h3 class="timeline-title">Mezcla y Proceso de Aplicación</h3>
+                        <p class="timeline-desc">Enfoca las tomas macro en las manos del estilista, la textura de la mezcla en el bowl y el pincel separando mechones.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">11:00</div>
+                        <h3 class="timeline-title">Fase de Lavado y Tratamiento</h3>
+                        <p class="timeline-desc">Ubícate con tiempo en el lavacabezas. Capta primeros planos estéticos de la caída del agua y el masaje capilar.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">12:30</div>
+                        <h3 class="timeline-title">Secado y Revelación ("Después")</h3>
+                        <p class="timeline-desc">Graba el peinado, el flujo de aire del secador sobre el cabello hidratado y las tomas de cámara lenta del brillo Truss.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">13:30</div>
+                        <h3 class="timeline-title">Testimonio Final</h3>
+                        <p class="timeline-desc">Pídele al estilista que sostenga un envase Truss y comente en 15 segundos el rotundo éxito del tratamiento. ¡Fin de grabación!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- --- TAB: ESTRATEGIA INSTAGRAM --- -->
+        <div id="redes" class="tab-content">
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-icon">📱</div>
+                    <h2>Plan Editorial de Instagram (Historias, Feed y Carruseles)</h2>
+                </div>
+                <p style="color: var(--text-secondary); margin-bottom: 25px;">Sigue esta guía de marketing premium para estructurar tus publicaciones del lunes y cómo transformarlas en contenidos de altísima conversión durante la semana:</p>
+
+                <!-- Historias Narrativas -->
+                <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.3rem; color: var(--accent-gold); margin-bottom: 15px; border-left: 4px solid var(--accent-gold); padding-left: 12px;">1. El Flujo de Historias del Lunes (Storytelling en Vivo)</h3>
+                
+                <div class="timeline" style="margin-bottom: 40px;">
+                    <div class="timeline-item">
+                        <div class="timeline-time">09:00 - Historia 1: El Gancho (Expectativa)</div>
+                        <h4 class="timeline-title">La Llegada al Centro Técnico</h4>
+                        <p class="timeline-desc"><strong>Video:</strong> Toma 1 (Entrada dinámica al local con el gimbal).<br><strong>Texto sugerido:</strong> <em>"¡Buen día! Hoy nos vinimos al Centro Técnico de Dos Soles porque se viene algo increíble con TRUSS... 💆‍♀️✨"</em><br><strong>Música:</strong> Un beat moderno de ritmo medio.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">09:15 - Historia 2: El Protagonista</div>
+                        <h4 class="timeline-title">Presentando al Experto</h4>
+                        <p class="timeline-desc"><strong>Video:</strong> Toma 2 (Peluquero ordenando) + Toma 3 (Altar Truss).<br><strong>Audio (DJI Mic):</strong> El peluquero presentándose a la cámara, muy nítido: <em>"¡Hola a todos! Hoy vamos a mostrar la magia técnica de coloración y reconstrucción Truss..."</em><br><strong>Texto:</strong> <em>"Hoy nos acompaña [Nombre del Estilista] para mostrarnos la magia de Truss."</em></p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">10:00 - Historia 3: La Alquimia</div>
+                        <h4 class="timeline-title">La Preparación de Fórmulas</h4>
+                        <p class="timeline-desc"><strong>Video:</strong> Toma 5 (Macro de la mezcla cremosa batida en el bowl).<br><strong>Transición:</strong> Termina la historia girando el celu rápido a la derecha (Whip Pan).<br><strong>Texto:</strong> <em>"Preparando la fórmula perfecta de Truss. Miren esta textura... 🧪🎨"</em></p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">10:30 - Historia 4: La Aplicación</div>
+                        <h4 class="timeline-title">Tip Técnico Educativo</h4>
+                        <p class="timeline-desc"><strong>Video:</strong> Toma 6 (Aplicación del tinte). Inicia con el final del Whip Pan.<br><strong>Audio (DJI Mic):</strong> El estilista dando un tip técnico rápido de 10 segundos sobre la aplicación uniforme en secciones finas para nutrir bien.<br><strong>Texto:</strong> <em>"Tip de experto: Saturar la fibra para reconstruir desde adentro."</em></p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">11:30 - Historia 5: El Lavado Sensorial</div>
+                        <h4 class="timeline-title">Relajación Absoluta</h4>
+                        <p class="timeline-desc"><strong>Video:</strong> Toma 7 y 8 (Agua corriendo y masaje capilar en cámara lenta).<br><strong>Estilo:</strong> Audio del salón silenciado. Música zen súper suave de fondo para un efecto relajante.<br><strong>Texto:</strong> <em>"Momento de relax e hidratación en el lavacabezas... ¿sentís el aroma? 💆‍♀️💦"</em></p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">12:45 - Historia 6: La Tensión</div>
+                        <h4 class="timeline-title">Generando Expectativa de Cambio</h4>
+                        <p class="timeline-desc"><strong>Video:</strong> Toma 9 (Viento en cámara lenta volando el pelo).<br><strong>Interactividad:</strong> Agrega sticker de encuesta interactiva: <em>"¿Lacio o con Ondas?"</em> o <em>"¿Quieren ver el resultado?"</em>.<br><strong>Texto:</strong> <em>"El secado final... ¡miren este brillo! Falta poco para revelar el look."</em></p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">13:15 - Historia 7: ¡LA REVELACIÓN MÁGICA!</div>
+                        <h4 class="timeline-title">Antes y Después Dinámico</h4>
+                        <p class="timeline-desc"><strong>Video:</strong> Transición 2 (Lens Block). El peluquero retira el frasco de Truss pegado al lente y revela a la modelo sonriente con el Brillo Espejo impecable.<br><strong>Texto:</strong> <em>"¡BOMBA! Reconstrucción y coloración Truss con Brillo Espejo. Miren esta soltura... 😍💎"</em><br><strong>Música:</strong> El beat explota justo al retirar el envase.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-time">13:45 - Historia 8: Cierre y Venta</div>
+                        <h4 class="timeline-title">Llamado a la Acción</h4>
+                        <p class="timeline-desc"><strong>Video:</strong> Toma 10 (Testimonio final estilista + modelo).<br><strong>Audio (DJI Mic):</strong> El peluquero invitando a los profesionales a capacitarse en Dos Soles o a adquirir la línea.<br><strong>Interactividad:</strong> Sticker de enlace al WhatsApp o texto: <em>"Escribí QUIERO TRUSS y te mandamos el catálogo por privado"</em>.</p>
+                    </div>
+                </div>
+
+                <!-- Feed y Reels -->
+                <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.3rem; color: var(--accent-blue); margin-bottom: 15px; border-left: 4px solid var(--accent-blue); padding-left: 12px; margin-top: 30px;">2. Reels de Alto Impacto para el Feed (Durante la semana)</h3>
+                <div class="transitions-grid" style="margin-bottom: 40px;">
+                    <!-- Reel A -->
+                    <div class="transition-item-card">
+                        <div class="transition-text-content">
+                            <h3>Reel A: El Antes y Después Rápido (3-10 seg)</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">Un Reel corto, enérgico y altamente visual enfocado en llamar la atención de nuevos estilistas y salones clientes.</p>
+                            <div class="transition-step-box">
+                                <h4>Estructura de Edición</h4>
+                                <p>0-2s: Pelo seco/opaco antes del tratamiento (con frasco Truss pegado al celu) ➡️ 2-3s: El envase cubre por completo y descubre la lente ➡️ 3-10s: Montaje ultra dinámico de la modelo feliz presumiendo su cabello brillante en cámara lenta con música viral.</p>
+                            </div>
+                        </div>
+                        <div class="transition-image-container">
+                            <img src="truss_before_after_1780173087430.png" alt="Antes y Después">
+                        </div>
+                    </div>
+
+                    <!-- Reel B -->
+                    <div class="transition-item-card">
+                        <div class="transition-text-content">
+                            <h3>Reel B: Mini-Clase Técnica B2B (Tip de Experto para Estilistas)</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">Un formato altamente educativo que atrae a dueños de salones y estilistas profesionales porque resuelve un dolor de cabeza técnico real, posicionando a Dos Soles como líder en capacitación y Truss como la herramienta indispensable.</p>
+                            <div class="transition-step-box">
+                                <h4>Estructura de Edición</h4>
+                                <p>0-3s: Gancho B2B con un problema del salón (ej. *"¿Cómo decolorar un cabello sensibilizado sin romper la fibra?"* o *"¿Falta de brillo tras teñir? Evitalo así..."*) ➡️ 3-15s: Plano cerrado del peluquero aplicando la ampolla o mezcla Truss y explicando su química protectora en el Centro Técnico (audio DJI Mic ultra nítido) ➡️ 15-20s: Llamado a la acción: *"Comentá CURSO para recibir la info de nuestro próximo taller técnico"*.</p>
+                            </div>
+                        </div>
+                        <div class="transition-image-container">
+                            <img src="truss_b2b_training_1780241926779.png" alt="Capacitación B2B Truss">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carruseles Educativos -->
+                <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.3rem; color: var(--accent-green); margin-bottom: 15px; border-left: 4px solid var(--accent-green); padding-left: 12px;">3. Carruseles de Deslizar (Educación e Inscripciones)</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 20px; font-size: 0.95rem;">Los carruseles posicionan a Dos Soles como expertos técnicos. Utiliza las mejores fotos que tomes el lunes para armar estas secuencias:</p>
+                
+                <div class="devices-grid">
+                    <!-- Carrusel 1 -->
+                    <div class="device-card">
+                        <h3>Carrusel 1: Paso a Paso Brillo Espejo</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 15px;">Muestra la rigurosidad técnica del tratamiento Truss.</p>
+                        <ul class="steps-list">
+                            <li><span>Slide 1 (Portada)</span>: Foto de cabello brillante desde atrás. Título: *"El secreto del Brillo Espejo en 4 pasos con Truss"*.</li>
+                            <li><span>Slide 2 (Paso 1)</span>: Foto de preparación. *"Diagnóstico e hidratación activa de enlaces capilares"*.</li>
+                            <li><span>Slide 3 (Paso 2)</span>: Foto de aplicación. *"Saturación y penetración homogénea en mechones finos"*.</li>
+                            <li><span>Slide 4 (Paso 3)</span>: Foto en el lavacabezas. *"Lavado templado para sellar cutícula capilar"*.</li>
+                            <li><span>Slide 5 (Paso 4)</span>: Foto final de la modelo sonriente. *"Secado y sellado térmico para fijar el brillo"*.</li>
+                            <li><span>Slide 6 (Cierre)</span>: Llamado a la acción: *"Escribinos para capacitarte o pedir el catálogo Truss en Dos Soles"*.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Carrusel 2 -->
+                    <div class="device-card">
+                        <h3>Carrusel 2: 3 Errores de Coloración</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 15px;">Educa a los clientes y posiciona al centro técnico.</p>
+                        <ul class="steps-list">
+                            <li><span>Slide 1 (Portada)</span>: Foto del estilista mezclando el color. Título: *"3 Errores de coloración que los expertos evitan al 100%"*.</li>
+                            <li><span>Slide 2 (Error 1)</span>: Foto de texturas del color. *"Saturar con oxidantes genéricos. Usamos Truss para proteger la queratina natural"*.</li>
+                            <li><span>Slide 3 (Error 2)</span>: Foto de mechones peinados. *"No respetar los tiempos de pose del tinte en el cabello"*.</li>
+                            <li><span>Slide 4 (Error 3)</span>: Foto de ampolla Truss. *"No hidratar post-coloración. Sellar con ampolla es vital para prolongar el brillo"*.</li>
+                            <li><span>Slide 5 (Comparativa)</span>: Foto Antes y Después de la modelo. *"El resultado técnico impecable que tus clientes buscan"*.</li>
+                            <li><span>Slide 6 (Cierre)</span>: *"Seguinos para enterarte de nuestros próximos cursos técnicos en Dos Soles"*.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- --- SCRIPTS JS PARA INTERACTIVIDAD --- -->
+    <script>
+        // Cambiar entre pestañas
+        function switchTab(tabId) {
+            // Desactivar botones de tab
+            const tabs = document.querySelectorAll('.tab-btn');
+            tabs.forEach(tab => tab.classList.remove('active'));
+
+            // Desactivar contenidos
+            const contents = document.querySelectorAll('.tab-content');
+            contents.forEach(content => content.classList.remove('active'));
+
+            // Activar botón seleccionado
+            const activeBtn = Array.from(tabs).find(tab => tab.getAttribute('onclick').includes(tabId));
+            if (activeBtn) activeBtn.classList.add('active');
+
+            // Activar contenido seleccionado
+            const activeContent = document.getElementById(tabId);
+            if (activeContent) activeContent.classList.add('active');
+        }
+
+        // Checklist interactivo con persistencia local
+        function toggleCheck(element) {
+            const checkbox = element.querySelector('input[type="checkbox"]');
+            checkbox.checked = !checkbox.checked;
+            
+            if (checkbox.checked) {
+                element.classList.add('checked');
+            } else {
+                element.classList.remove('checked');
+            }
+            saveChecklistState();
+        }
+
+        // Guardar estado en el navegador por si se recarga en el evento
+        function saveChecklistState() {
+            const checkboxes = document.querySelectorAll('.checklist-item-card input[type="checkbox"]');
+            const state = Array.from(checkboxes).map(box => box.checked);
+            localStorage.setItem('truss_checklist_state3', JSON.stringify(state));
+        }
+
+        // Cargar estado al iniciar la página
+        function loadChecklistState() {
+            const savedState = localStorage.getItem('truss_checklist_state3');
+            if (savedState) {
+                const state = JSON.parse(savedState);
+                const items = document.querySelectorAll('.checklist-item-card');
+                items.forEach((item, index) => {
+                    if (state[index]) {
+                        const checkbox = item.querySelector('input[type="checkbox"]');
+                        checkbox.checked = true;
+                        item.classList.add('checked');
+                    }
+                });
+            }
+        }
+
+        // Prevenir que hacer clic directamente en el input rompa el flujo
+        document.querySelectorAll('.checklist-item-card input[type="checkbox"]').forEach(box => {
+            box.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const parent = box.closest('.checklist-item-card');
+                if (box.checked) {
+                    parent.classList.add('checked');
+                } else {
+                    parent.classList.remove('checked');
+                }
+                saveChecklistState();
+            });
+        });
+
+        window.onload = loadChecklistState;
+    </script>
+</body>
+</html>
