@@ -198,6 +198,11 @@ ESCENA B: La modelo ya finalizada
 
 Lleva este checklist contigo el lunes para asegurarte de no volver a casa con material faltante. Haz al menos 3 tomas de cada uno. Junto a cada toma encontrarás el modo del estabilizador DJI recomendado.
 
+> [!TIP]
+> **🚶‍♂️ EL SECRETO DE LA ESTABILIDAD: LA CAMINATA NINJA**
+> Para evitar el rebote vertical que el estabilizador no puede absorber, flexiona ligeramente tus rodillas, camina talón-punta deslizando tus pies con suavidad y mantén los codos pegados a tus costados.
+> <img src="truss_ninja_walk_1780317518118.png" alt="Esquema de la Caminata Ninja" style="width: 100%; max-width: 380px; border-radius: 12px; margin-top: 10px;" />
+
 ### 🏢 Categoría A: Contexto e Introducción (El Gancho)
 * [ ] **Plano 1: La entrada dinámica** `[PTF ⌖]`: Camina con el gimbal hacia la entrada del centro técnico Dos Soles. Paso firme pero suave (caminata ninja).
 * [ ] **Plano 2: El Peluquero Estrella** `[LOCK 🔒]`: Plano medio del estilista ordenando los productos sobre la mesada. Pídele que mire a la cámara, sonría y salude con la mano.
