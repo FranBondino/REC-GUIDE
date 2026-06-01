@@ -905,12 +905,12 @@
         
         <!-- --- MENÚ TABS --- -->
         <nav class="tabs">
-            <button class="tab-btn active" onclick="switchTab('config')">⚙️ Configuración</button>
-            <button class="tab-btn" onclick="switchTab('transiciones')">🎬 Transiciones</button>
-            <button class="tab-btn" onclick="switchTab('shotlist')">📸 Shot List</button>
-            <button class="tab-btn" onclick="switchTab('cronograma')">📅 Cronograma</button>
-            <button class="tab-btn" onclick="switchTab('redes')">📱 Estrategia Instagram</button>
-            <button class="tab-btn" onclick="switchTab('pruebas')">🧪 Pruebas y Modos</button>
+            <button class="tab-btn active" data-tab="config" onclick="switchTab('config')">⚙️ Configuración</button>
+            <button class="tab-btn" data-tab="transiciones" onclick="switchTab('transiciones')">🎬 Transiciones</button>
+            <button class="tab-btn" data-tab="shotlist" onclick="switchTab('shotlist')">📸 Shot List</button>
+            <button class="tab-btn" data-tab="cronograma" onclick="switchTab('cronograma')">📅 Cronograma</button>
+            <button class="tab-btn" data-tab="redes" onclick="switchTab('redes')">📱 Estrategia Instagram</button>
+            <button class="tab-btn" data-tab="pruebas" onclick="switchTab('pruebas')">🧪 Pruebas y Modos</button>
         </nav>
 
         <!-- --- TAB: CONFIGURACIÓN --- -->
@@ -1843,7 +1843,7 @@
     
     <!-- --- SCRIPTS JS PARA INTERACTIVIDAD --- -->
     <script>
-        // Cambiar entre pestañas
+        // Cambiar entre pestañas (Optimizado para compatibilidad móvil total sin errores JS)
         function switchTab(tabId) {
             // Desactivar botones de tab
             const tabs = document.querySelectorAll('.tab-btn');
@@ -1853,13 +1853,24 @@
             const contents = document.querySelectorAll('.tab-content');
             contents.forEach(content => content.classList.remove('active'));
 
-            // Activar botón seleccionado
-            const activeBtn = Array.from(tabs).find(tab => tab.getAttribute('onclick').includes(tabId));
-            if (activeBtn) activeBtn.classList.add('active');
+            // Activar botón seleccionado por atributo data-tab (100% compatible con móviles)
+            const activeBtn = document.querySelector(`.tab-btn[data-tab="${tabId}"]`);
+            if (activeBtn) {
+                activeBtn.classList.add('active');
+            } else {
+                // Fallback en caso de que no esté el atributo (flaco en móviles)
+                const fallbackBtn = Array.from(tabs).find(tab => {
+                    const attr = tab.getAttribute('onclick') || '';
+                    return attr.toString().includes(tabId);
+                });
+                if (fallbackBtn) fallbackBtn.classList.add('active');
+            }
 
             // Activar contenido seleccionado
             const activeContent = document.getElementById(tabId);
-            if (activeContent) activeContent.classList.add('active');
+            if (activeContent) {
+                activeContent.classList.add('active');
+            }
         }
 
         // Checklist interactivo con persistencia local
