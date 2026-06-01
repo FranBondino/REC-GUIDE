@@ -126,12 +126,13 @@ Usa el clip o el imán que incluye el DJI Mic por debajo de la remera para que q
 
 ## 🎬 3. Guía Visual de Transiciones Físicas
 
-Las transiciones físicas mantienen el ritmo y retienen la atención en las historias de Instagram y Reels. Aquí tienes las 3 más efectivas, dibujadas y detalladas paso a paso.
+Las transiciones físicas mantienen el ritmo y retienen la atención en las historias de Instagram y Reels. Aquí tienes las 4 más efectivas, dibujadas y detalladas paso a paso con su modo DJI de referencia.
 
-### 🔄 Transición 1: El Látigo Rápido (Whip Pan)
+### 🔄 Transición 1: El Látigo Rápido (Whip Pan) `[FPV 🖾]`
 Crea una sensación de velocidad y cambio instantáneo de escena.
 
 ```
+🕹️ Modo del Estabilizador: [FPV 🖾]
 ESCENA A: El peluquero aplicando el producto Truss
 🎥 Cámara: Grabando de cerca ➡️ Paneo ultra rápido hacia la DERECHA ➡️ CORTAR GRABACIÓN
                                                   ⬇️
@@ -143,10 +144,11 @@ ESCENA B: El lavado de cabeza de la modelo
 
 ---
 
-### 🧴 Transición 2: Bloqueo de Lente con Producto (Lens Block)
+### 🧴 Transición 2: Bloqueo de Lente con Producto (Lens Block) `[PTF ⌖]`
 Una transición súper comercial e ideal para marcas de belleza.
 
 ```
+🕹️ Modo del Estabilizador: [PTF ⌖]
 ESCENA A: El peluquero sosteniendo la botella de Truss Uso Obligatorio
 🎥 Cámara: Grabar al peluquero sosteniendo el envase.
 👉 Acción: El peluquero empuja la botella rápidamente hacia la cámara hasta tapar la lente por completo (Pantalla a negro).
@@ -160,10 +162,11 @@ ESCENA B: La modelo con el look finalizado
 
 ---
 
-### 🪞 Transición 3: El Desenfoque de Lente (Bokeh / Focus Fade)
+### 🪞 Transición 3: El Desenfoque de Lente (Bokeh / Focus Fade) `[PTF ⌖]`
 Una transición suave, de estilo editorial de belleza, que aprovecha las luces del salón para fundir escenas de forma artística.
 
 ```
+🕹️ Modo del Estabilizador: [PTF ⌖]
 ESCENA A: El proceso de coloración o lavado finalizado
 🎥 Cámara: Tocar la base de la pantalla del celu o acercarse mucho a un objeto para desenfocar por completo la modelo (Pantalla desenfocada).
                                                   ⬇️
@@ -175,10 +178,11 @@ ESCENA B: La modelo peinada con Brillo Espejo
 
 ---
 
-### 🌀 Transición 4: El Giro de Vórtice (Spin / Roll Transition)
+### 🌀 Transición 4: El Giro de Vórtice (Spin / Roll Transition) `[FPV 🖾] / [SPINSHOT ⟳]`
 Una transición enérgica y dinámica basada en la rotación física para conectar el laboratorio técnico y el salón.
 
 ```
+🕹️ Modo del Estabilizador: [FPV 🖾] o [SPINSHOT ⟳]
 ESCENA A: El peluquero batiendo la crema en el bowl o aplicando
 🎥 Cámara: Grabar la acción de forma estable ➡️ Rotar rápidamente la cámara de tu celu girando tu muñeca 180° a la izquierda ➡️ CORTAR.
                                                   ⬇️
@@ -192,28 +196,28 @@ ESCENA B: La modelo ya finalizada
 
 ## 📸 4. La Biblioteca de Planos (Shot List Completa)
 
-Lleva este checklist contigo el lunes para asegurarte de no volver a casa con material faltante. Haz al menos 3 tomas de cada uno.
+Lleva este checklist contigo el lunes para asegurarte de no volver a casa con material faltante. Haz al menos 3 tomas de cada uno. Junto a cada toma encontrarás el modo del estabilizador DJI recomendado.
 
 ### 🏢 Categoría A: Contexto e Introducción (El Gancho)
-* [ ] **Plano 1: La entrada dinámica**: Camina con el gimbal hacia la entrada del centro técnico Dos Soles. Paso firme pero suave (caminata ninja).
-* [ ] **Plano 2: El Peluquero Estrella**: Plano medio del estilista ordenando los productos sobre la mesada. Pídele que mire a la cámara, sonría y salude con la mano.
-* [ ] **Plano 3: El Altar de Truss**: Toma general de la línea de productos Truss perfectamente ordenados bajo las luces del salón.
+* [ ] **Plano 1: La entrada dinámica** `[PTF ⌖]`: Camina con el gimbal hacia la entrada del centro técnico Dos Soles. Paso firme pero suave (caminata ninja).
+* [ ] **Plano 2: El Peluquero Estrella** `[LOCK 🔒]`: Plano medio del estilista ordenando los productos sobre la mesada. Pídele que mire a la cámara, sonría y salude con la mano.
+* [ ] **Plano 3: El Altar de Truss** `[PF ⌂]`: Toma general de la línea de productos Truss perfectamente ordenados bajo las luces del salón.
 
 ### 🧪 Categoría B: El Proceso Técnico (Detalles y Texturas)
-* [ ] **Plano 4: El Unboxing del Producto**: Plano cerrado de las manos del peluquero abriendo la tapa o presionando el dosificador.
-* [ ] **Plano 5: La Alquimia**: Plano macro (muy de cerca) de la mezcla de color o producto en el bowl. El batido con el pincel genera una textura cremosa espectacular en 60 FPS.
-* [ ] **Plano 6: La Aplicación Detallada**: Plano medio y cerrado de los dedos del peluquero separando mechones y aplicando el producto con pinceladas precisas.
-* [ ] **Plano 7: La Reacción Química**: Si el producto genera vapor, espuma o reposa bajo una lámpara térmica, graba un plano de ese proceso.
+* [ ] **Plano 4: El Unboxing del Producto** `[PF ⌂]`: Plano cerrado de las manos del peluquero abriendo la tapa o presionando el dosificador.
+* [ ] **Plano 5: La Alquimia** `[PF ⌂]`: Plano macro (muy de cerca) de la mezcla de color o producto en el bowl. El batido con el pincel genera una textura cremosa espectacular en 60 FPS.
+* [ ] **Plano 6: La Aplicación Detallada** `[PTF ⌖]`: Plano medio y cerrado de los dedos del peluquero separando mechones y aplicando el producto con pinceladas precisas.
+* [ ] **Plano 7: La Reacción Química** `[PTF ⌖]`: Si el producto genera vapor, espuma o reposa bajo una lámpara térmica, graba un plano de ese proceso.
 
 ### 💦 Categoría C: Sensorial y Lavado
-* [ ] **Plano 8: El Lavacabezas Cenital**: Graba desde arriba cómo cae el agua sobre el cabello. La caída del agua y la espuma en cámara lenta tienen un efecto hipnótico en redes.
-* [ ] **Plano 9: El Masaje Capilar**: Plano cerrado de las manos del peluquero haciendo el masaje de lavado. Transmite relajación y cuidado premium.
+* [ ] **Plano 8: El Lavacabezas Cenital** `[PTF ⌖]`: Graba desde arriba cómo cae el agua sobre el cabello. La caída del agua y la espuma en cámara lenta tienen un efecto hipnótico en redes.
+* [ ] **Plano 9: El Masaje Capilar** `[PTF ⌖]`: Plano cerrado de las manos del peluquero haciendo el masaje de lavado. Transmite relajación y cuidado premium.
 
 ### ✨ Categoría D: El Secado y la Revelación
-* [ ] **Plano 10: El Soplo de Viento**: Graba el cabello volando con el aire del secador. Colócate a contraluz para que cada cabello brille.
-* [ ] **Plano 11: El Movimiento de la Peineta**: El cepillo redondo deslizando por el mechón de cabello de arriba a abajo, revelando un lacio u ondas perfectas.
-* [ ] **Plano 12: El Brillo Espejo**: Pídele a la modelo que mueva suavemente la cabeza de lado a lado. Capta el reflejo de la luz sobre el cabello (Brillo Truss).
-* [ ] **Plano 13: La Gran Sonrisa (El Éxito)**: Plano medio de la modelo mirándose al espejo, tocándose el cabello con una sonrisa de felicidad.
+* [ ] **Plano 10: El Soplo de Viento** `[PTF ⌖]`: Graba el cabello volando con el aire del secador. Colócate a contraluz para que cada cabello brille.
+* [ ] **Plano 11: El Movimiento de la Peineta** `[PTF ⌖]`: El cepillo redondo deslizando por el mechón de cabello de arriba a abajo, revelando un lacio u ondas perfectas.
+* [ ] **Plano 12: El Brillo Espejo** `[PTF ⌖]`: Pídele a la modelo que mueva suavemente la cabeza de lado a lado. Capta el reflejo de la luz sobre el cabello (Brillo Truss).
+* [ ] **Plano 13: La Gran Sonrisa (El Éxito)** `[LOCK 🔒]`: Plano medio de la modelo mirándose al espejo, tocándose el cabello con una sonrisa de felicidad.
 
 ---
 
@@ -229,38 +233,46 @@ Sigue este itinerario paso a paso el lunes para coordinar las tomas con la publi
   * **Prueba:** Grábalo hablando 10 segundos, **ponte tus auriculares** y escúchalo. Debe sonar nítido y libre del zumbido del aire acondicionado.
   * **Configuración:** Activa el canal **Mono** (audio centrado), la **Pista de Seguridad** a -6dB (para evitar roturas si grita o ríe) y el **Corte Bajo (Low Cut)** para filtrar ruidos graves.
 * **09:00 — Historia 1: El Gancho (Publicar la Llegada)**:
-  * **Acción:** Graba la Toma 1 (Entrada Dinámica). Gimbal en modo **Follow (📷)**. Entra con paso ninja (rodillas flexionadas, deslizando talones) cruzando la puerta de Dos Soles en un plano continuo de 5 segundos.
+  * **Acción:** Graba la Toma 1 (La Entrada Dinámica). 
+  * **Estabilizador:** `[PTF ⌖]`. Entra con paso ninja (rodillas flexionadas, deslizando talones) cruzando la puerta de Dos Soles en un plano continuo de 5 segundos.
   * **Publicación:** Sube este video a tus historias con la música en tendencia de fondo.
   * **Texto en pantalla:** *"¡Buen día! Hoy nos vinimos al Centro Técnico de Dos Soles porque se viene algo increíble con TRUSS... 💆‍♀️✨"*
 * **09:15 — Historia 2: El Protagonista (Presentando al Peluquero)**:
   * **Acción:** Graba la Toma 2 (Plano medio del peluquero ordenando productos Truss y saludando a la cámara).
+  * **Estabilizador:** `[LOCK 🔒]`.
   * **Audio (DJI Mic):** El peluquero diciendo: *"¡Hola a todos! Hoy vamos a hacer una reconstrucción profunda con Truss en el salón técnico..."*
   * **Publicación:** Sube el video como Historia 2.
   * **Texto en pantalla:** *"Hoy nos acompaña [Nombre del Estilista] para mostrarnos la magia técnica de Truss."*
 * **10:00 — Historia 3: La Alquimia (Preparación de la Mezcla)**:
-  * **Acción:** Graba la Toma 5 (La Alquimia). Gimbal en modo **FPV (🖾)**. Enfoca de muy cerca el pincel batiendo el color Truss en el bowl de vidrio. A los 4 segundos, gira la muñeca rápido a la DERECHA (Whip Pan) y corta.
+  * **Acción:** Graba la Toma 5 (La Alquimia).
+  * **Estabilizador:** `[FPV 🖾]`. Enfoca de muy cerca el pincel batiendo el color Truss en el bowl de vidrio. A los 4 segundos, gira la muñeca rápido a la DERECHA (Whip Pan) y corta.
   * **Publicación:** Sube esta toma a velocidad de cámara lenta (0.5x en CapCut) como Historia 3.
   * **Texto en pantalla:** *"Preparando la fórmula perfecta de Truss. Miren esta textura... 🧪🎨"*
 * **10:30 — Historia 4: Tip Técnico Educativo (Aplicación - B2B)**:
   * **Acción:** Graba la Toma 6 (Aplicación del tinte). Inicia barriendo rápido de izquierda a derecha (final del Whip Pan) y frena el plano en las manos del estilista pasando el pincel.
+  * **Estabilizador:** `[PTF ⌖]`.
   * **Audio (DJI Mic):** El estilista dando un tip técnico: *"El secreto de Truss es saturar bien las secciones finas para reconstruir los enlaces químicos de la cutícula"*.
   * **Publicación:** Sube el clip como Historia 4.
   * **Texto en pantalla:** *"Tip de experto: Saturación homogénea en secciones finas."*
 * **11:30 — Historia 5: Momento Sensorial (Relajación en Lavacabezas)**:
-  * **Acción:** Graba la Toma 7 y 8 (Lavado Cenital). Gimbal en modo **Follow (📷)** apuntando directamente hacia abajo desde arriba de la cabeza. Capta la caída del agua y el masaje capilar con la espuma blanca en cámara lenta.
+  * **Acción:** Graba la Toma 7 y 8 (Lavado Cenital). 
+  * **Estabilizador:** `[PTF ⌖]` apuntando directamente hacia abajo desde arriba de la cabeza. Capta la caída del agua y el masaje capilar con la espuma blanca en cámara lenta.
   * **Publicación:** Sube como Historia 5 silenciando el audio original del salón de teñido.
   * **Texto en pantalla:** *"Momento de relax e hidratación en el lavacabezas... ¿sentís el aroma? 💆‍♀️💦"*
   * **Música:** Agrega una melodía zen súper suave de fondo.
 * **12:45 — Historia 6: La Tensión (Secado y Viento)**:
   * **Acción:** Graba la Toma 9 (Secador volando el pelo brillante a contraluz para que destaque cada hebra).
+  * **Estabilizador:** `[PTF ⌖]`.
   * **Publicación:** Sube la Historia 6 agregando un **Sticker de Encuesta Interactiva** (*"¿Lacio o con Ondas?"* o *"¿Quieren ver el resultado?"*).
   * **Texto en pantalla:** *"El secado final... ¡miren este brillo! Falta poco para revelar el look."*
 * **13:15 — Historia 7: ¡LA REVELACIÓN MÁGICA! (El Después)**:
   * **Acción:** Transición 2 (Lens Block). Inicia grabando con la botella de Truss pegada al lente (pantalla en negro) y retírala rápidamente hacia atrás para descubrir a la modelo sonriendo y presumiendo un cabello ultra brillante sin frizz.
+  * **Estabilizador:** `[PTF ⌖]`.
   * **Publicación:** Sube la Historia 7. La música enérgica debe explotar justo cuando retiras el envase.
   * **Texto en pantalla:** *"¡BOMBA! Reconstrucción Truss con Brillo Espejo. ¡Miren esta soltura y salud capilar! 😍💎"*
 * **13:45 — Historia 8: Cierre y Ventas (Llamado a la Acción B2B)**:
   * **Acción:** Graba la Toma 10 (Testimonio final). El peluquero y la modelo sonrientes sosteniendo la línea Truss.
+  * **Estabilizador:** `[LOCK 🔒]`.
   * **Audio (DJI Mic):** El peluquero diciendo: *"Trabajar con Truss en Dos Soles es otro nivel. Si querés capacitarte o conseguir la línea en tu salón, tocá el enlace aquí abajo"*.
   * **Publicación:** Sube la Historia 8 agregando un **Sticker de Enlace** al WhatsApp de ventas de la distribuidora.
   * **Texto en pantalla:** *"Escribí 'QUIERO TRUSS' y te mandamos el catálogo por privado"*.

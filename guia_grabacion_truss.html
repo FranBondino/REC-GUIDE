@@ -702,6 +702,47 @@
             font-size: 0.95rem;
         }
 
+        /* --- MEDALLAS DE MODO DJI --- */
+        .mode-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-family: 'Outfit', sans-serif;
+            margin-bottom: 10px;
+            vertical-align: middle;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        .badge-ptf {
+            background: rgba(217, 119, 6, 0.15);
+            color: #fbbf24;
+            border: 1px solid var(--accent-gold);
+        }
+        .badge-pf {
+            background: rgba(59, 130, 246, 0.15);
+            color: #60a5fa;
+            border: 1px solid var(--accent-blue);
+        }
+        .badge-fpv {
+            background: rgba(139, 92, 246, 0.15);
+            color: #a78bfa;
+            border: 1px solid var(--accent-purple);
+        }
+        .badge-spin {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34d399;
+            border: 1px solid var(--accent-green);
+        }
+        .badge-lock {
+            background: rgba(255, 255, 255, 0.08);
+            color: #d1d5db;
+            border: 1px solid var(--text-secondary);
+        }
+
         /* --- RESPONSIVIDAD MÓVIL ADICIONAL --- */
         @media (max-width: 600px) {
             .comic-strip {
@@ -960,6 +1001,9 @@
                     <div class="transition-item-card">
                         <div class="transition-text-content">
                             <h3>1. El Látigo Rápido (Whip Pan)</h3>
+                            <div style="margin-top: 5px; margin-bottom: 8px;">
+                                <span class="mode-badge badge-fpv"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="7"/><path d="M7.5 7.5l9 9M16.5 7.5l-9 9"/></svg> FPV</span>
+                            </div>
                             <p style="color: var(--text-secondary); font-size: 0.95rem;">Une dos planos en diferentes locaciones simulando un giro de cabeza ultrarrápido (efecto borroso). Es ideal para viajar del salón de teñido al lavacabezas.</p>
                             
                             <div class="transition-step-box">
@@ -980,6 +1024,9 @@
                     <div class="transition-item-card">
                         <div class="transition-text-content">
                             <h3>2. El Bloqueo de Lente (Lens Block)</h3>
+                            <div style="margin-top: 5px; margin-bottom: 8px;">
+                                <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span>
+                            </div>
                             <p style="color: var(--text-secondary); font-size: 0.95rem;">El peluquero empuja el frasco de Truss hasta cubrir por completo la cámara de tu celular, dejando la pantalla en negro (Corte 1). Luego, la toma de la modelo finalizada inicia con el envase pegado y se aleja rápidamente para revelar el look brillante.</p>
                             
                             <div class="transition-step-box">
@@ -1000,6 +1047,9 @@
                     <div class="transition-item-card">
                         <div class="transition-text-content">
                             <h3>3. El Desenfoque de Lente (Bokeh / Focus Fade)</h3>
+                            <div style="margin-top: 5px; margin-bottom: 8px;">
+                                <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span>
+                            </div>
                             <p style="color: var(--text-secondary); font-size: 0.95rem;">Una transición sumamente suave, elegante y de estilo publicitario. Une dos planos a través de un desenfoque artístico de luces en el salón, creando burbujas doradas (bokeh) antes de revelar la nitidez del look final.</p>
                             
                             <div class="transition-step-box">
@@ -1020,6 +1070,10 @@
                     <div class="transition-item-card">
                         <div class="transition-text-content">
                             <h3>4. El Giro de Vórtice (Spin / Roll Transition)</h3>
+                            <div style="margin-top: 5px; margin-bottom: 8px;">
+                                <span class="mode-badge badge-fpv" style="margin-right: 5px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="7"/><path d="M7.5 7.5l9 9M16.5 7.5l-9 9"/></svg> FPV</span>
+                                <span class="mode-badge badge-spin"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l.73-1.19"/></svg> SPINSHOT</span>
+                            </div>
                             <p style="color: var(--text-secondary); font-size: 0.95rem;">Una transición de alto impacto físico que utiliza una rotación rápida del gimbal para generar un efecto vórtice que viaja fluidamente entre el proceso técnico de teñido y el cabello ya modelado.</p>
                             
                             <div class="transition-step-box">
@@ -1043,6 +1097,9 @@
                     <!-- Panel 1 -->
                     <div class="comic-panel">
                         <h4>Escena A: El Cabello "Antes"</h4>
+                        <div style="margin-bottom: 10px;">
+                            <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span>
+                        </div>
                         <div class="comic-art">
   📱 [Cámara]  <====  [ENVASADO TRUSS]
                       (El estilista empuja
@@ -1055,6 +1112,9 @@
                     <!-- Panel 2 -->
                     <div class="comic-panel">
                         <h4>Escena B: El Cabello "Después"</h4>
+                        <div style="margin-bottom: 10px;">
+                            <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span>
+                        </div>
                         <div class="comic-art">
   📱 [Cámara]  ====>  [ENVASADO TRUSS]
                       (Se retira el envase
@@ -1102,6 +1162,9 @@
                         <input type="checkbox">
                         <div class="checklist-desc-box">
                             <h4>La Entrada Dinámica</h4>
+                            <div style="margin-bottom: 8px;">
+                                <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span>
+                            </div>
                             <p>Camina con paso firme y suave entrando al centro técnico de Dos Soles con el gimbal apuntando al frente.</p>
                         </div>
                         <div class="checklist-item-image">
@@ -1114,6 +1177,9 @@
                         <input type="checkbox">
                         <div class="checklist-desc-box">
                             <h4>El Peluquero Estrella (Testimonio)</h4>
+                            <div style="margin-bottom: 8px;">
+                                <span class="mode-badge badge-lock"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> LOCK</span>
+                            </div>
                             <p>Plano medio del peluquero ordenando los frascos Truss en la mesa, presentándose con su micrófono DJI colocado en la remera.</p>
                         </div>
                         <div class="checklist-item-image">
@@ -1126,6 +1192,9 @@
                         <input type="checkbox">
                         <div class="checklist-desc-box">
                             <h4>El Altar de Truss</h4>
+                            <div style="margin-bottom: 8px;">
+                                <span class="mode-badge badge-pf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><rect x="3" y="8" width="18" height="8" rx="4"/></svg> PF</span>
+                            </div>
                             <p>Tomas lentas y en paneo lateral de la línea premium de Truss perfectamente ordenados bajo las luces del salón.</p>
                         </div>
                         <div class="checklist-item-image">
@@ -1140,6 +1209,9 @@
                         <input type="checkbox">
                         <div class="checklist-desc-box">
                             <h4>La Alquimia (Mezcla de color)</h4>
+                            <div style="margin-bottom: 8px;">
+                                <span class="mode-badge badge-pf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><rect x="3" y="8" width="18" height="8" rx="4"/></svg> PF</span>
+                            </div>
                             <p>Plano macro del bowl de mezcla cremosa del color Truss batida con el pincel. Muestra los brillos y texturas del producto.</p>
                         </div>
                         <div class="checklist-item-image">
@@ -1152,6 +1224,9 @@
                         <input type="checkbox">
                         <div class="checklist-desc-box">
                             <h4>Aplicación Técnica</h4>
+                            <div style="margin-bottom: 8px;">
+                                <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span>
+                            </div>
                             <p>Planos cortos de la mano del peluquero aplicando la crema sobre los mechones de la modelo con pinceladas precisas.</p>
                         </div>
                         <div class="checklist-item-image">
@@ -1166,6 +1241,9 @@
                         <input type="checkbox">
                         <div class="checklist-desc-box">
                             <h4>El Lavado Cenital</h4>
+                            <div style="margin-bottom: 8px;">
+                                <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span>
+                            </div>
                             <p>La caída del agua tibia y la espuma blanca del champú Truss sobre la cabellera de la modelo mojada, en cámara lenta.</p>
                         </div>
                         <div class="checklist-item-image">
@@ -1180,6 +1258,9 @@
                         <input type="checkbox">
                         <div class="checklist-desc-box">
                             <h4>El Secado y Brillo Espejo</h4>
+                            <div style="margin-bottom: 8px;">
+                                <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span>
+                            </div>
                             <p>El aire del secador volando los mechones a contraluz. Muestra el cabello sedoso, ultra brillante y con el característico "brillo espejo" de Truss sin frizz.</p>
                         </div>
                         <div class="checklist-item-image">
@@ -1232,7 +1313,8 @@
                         <div class="timeline-time">09:00 — Historia 1: El Gancho (Expectativa)</div>
                         <h3 class="timeline-title">🚪 Publicar la Entrada Dinámica al Centro Técnico</h3>
                         <p class="timeline-desc">
-                            <strong>Qué Grabar:</strong> Toma 1 (La Entrada Dinámica). Estabilizador en modo **Follow (📷)**. Entra con paso ninja (rodillas flexionadas deslizando talones) cruzando la puerta de Dos Soles en un plano continuo de 5 segundos.<br>
+                            <strong>Qué Grabar:</strong> Toma 1 (La Entrada Dinámica).<br>
+                            <strong>Estabilizador:</strong> <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span>. Entra con paso ninja (rodillas flexionadas deslizando talones) cruzando la puerta de Dos Soles en un plano continuo de 5 segundos.<br>
                             <strong>Publicación en Vivo:</strong> Sube esta toma a tus historias.<br>
                             <strong>Texto en pantalla:</strong> <em>"¡Buen día! Hoy nos vinimos al Centro Técnico de Dos Soles porque se viene algo increíble con TRUSS... 💆‍♀️✨"</em><br>
                             <strong>Música:</strong> Un beat moderno de ritmo medio de fondo.
@@ -1248,6 +1330,7 @@
                         <h3 class="timeline-title">👤 Presentando al Peluquero Estrella</h3>
                         <p class="timeline-desc">
                             <strong>Qué Grabar:</strong> Toma 2 (Plano medio del peluquero ordenando los productos Truss y saludando).<br>
+                            <strong>Estabilizador:</strong> <span class="mode-badge badge-lock"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> LOCK</span>.<br>
                             <strong>Audio (DJI Mic):</strong> Su voz ultra nítida diciendo: <em>"¡Hola a todos! Hoy vamos a hacer una reconstrucción profunda con Truss en el salón técnico..."</em><br>
                             <strong>Publicación en Vivo:</strong> Sube el video como Historia 2.<br>
                             <strong>Texto en pantalla:</strong> <em>"Hoy nos acompaña [Nombre del Estilista] para mostrarnos la magia técnica de Truss."</em>
@@ -1262,7 +1345,8 @@
                         <div class="timeline-time">10:00 — Historia 3: La Alquimia</div>
                         <h3 class="timeline-title">🧪 Mezcla y Preparación de Productos</h3>
                         <p class="timeline-desc">
-                            <strong>Qué Grabar:</strong> Toma 5 (La Alquimia). Gimbal en modo **FPV (🖾)**. Plano súper cerrado a 15 cm del bowl de vidrio viendo la crema batida por el pincel. A los 4 segundos, gira la muñeca rápido a la DERECHA (Transición Whip Pan) y corta el video.<br>
+                            <strong>Qué Grabar:</strong> Toma 5 (La Alquimia).<br>
+                            <strong>Estabilizador:</strong> <span class="mode-badge badge-fpv"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="7"/><path d="M7.5 7.5l9 9M16.5 7.5l-9 9"/></svg> FPV</span>. Plano súper cerrado a 15 cm del bowl de vidrio viendo la crema batida por el pincel. A los 4 segundos, gira la muñeca rápido a la DERECHA (Transición Whip Pan) y corta el video.<br>
                             <strong>Publicación en Vivo:</strong> Sube este plano de cámara lenta como Historia 3.<br>
                             <strong>Texto en pantalla:</strong> <em>"Preparando la fórmula perfecta de Truss. Miren esta textura... 🧪🎨"</em>
                         </p>
@@ -1277,6 +1361,7 @@
                         <h3 class="timeline-title">🎓 Demostración de la Aplicación (B2B)</h3>
                         <p class="timeline-desc">
                             <strong>Qué Grabar:</strong> Toma 6 (Aplicación técnica). Inicia barriendo rápido de izquierda a derecha (final del Whip Pan) y frena el encuadre en las manos del estilista pasando el pincel.<br>
+                            <strong>Estabilizador:</strong> <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span>.<br>
                             <strong>Audio (DJI Mic):</strong> El peluquero dando un consejo útil: <em>"El secreto de Truss es aplicar de manera uniforme en secciones finas para que la cutícula capilar absorba los nutrientes..."</em>.<br>
                             <strong>Publicación en Vivo:</strong> Sube el video como Historia 4.<br>
                             <strong>Texto en pantalla:</strong> <em>"Tip de experto: Saturación homogénea en secciones finas."</em>
@@ -1291,7 +1376,8 @@
                         <div class="timeline-time">11:30 — Historia 5: Momento Sensorial</div>
                         <h3 class="timeline-title">💦 Relajación en el Lavacabezas</h3>
                         <p class="timeline-desc">
-                            <strong>Qué Grabar:</strong> Toma 7 y 8 (Lavado Cenital). Gimbal en modo **Follow (📷)** apuntando directamente hacia abajo desde arriba de la cabeza de la modelo. Capta la caída del agua y el masaje capilar con espuma blanca en cámara lenta (60fps bájalo al 50%).<br>
+                            <strong>Qué Grabar:</strong> Toma 7 y 8 (Lavado Cenital).<br>
+                            <strong>Estabilizador:</strong> <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span> apuntando directamente hacia abajo desde arriba de la cabeza de la modelo. Capta la caída del agua y el masaje capilar con espuma blanca en cámara lenta (60fps bájalo al 50%).<br>
                             <strong>Publicación en Vivo:</strong> Sube como Historia 5 silenciando el audio original del salón.<br>
                             <strong>Texto en pantalla:</strong> <em>"Momento de relax e hidratación en el lavacabezas... ¿sentís el aroma? 💆‍♀️💦"</em><br>
                             <strong>Música:</strong> Una melodía zen súper suave y relajante de fondo.
@@ -1306,7 +1392,8 @@
                         <div class="timeline-time">12:45 — Historia 6: La Tensión</div>
                         <h3 class="timeline-title">💨 Secado antes del Gran Cambio</h3>
                         <p class="timeline-desc">
-                            <strong>Qué Grabar:</strong> Toma 9 (Secado a contraluz). Enfoca el secador volando el cabello brillante con la luz natural detrás para que brille cada hebra.<br>
+                            <strong>Qué Grabar:</strong> Toma 9 (Secado a contraluz).<br>
+                            <strong>Estabilizador:</strong> <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span>. Enfoca el secador volando el cabello brillante con la luz natural detrás para que brille cada hebra.<br>
                             <strong>Publicación en Vivo:</strong> Sube la Historia 6 agregando un **Sticker de Encuesta Interactiva** (*"¿Lacio o con Ondas?"* o *"¿Quieren ver el resultado?"*).<br>
                             <strong>Texto en pantalla:</strong> <em>"El secado final... ¡miren este brillo! Falta poco para revelar el look."</em>
                         </p>
@@ -1320,7 +1407,8 @@
                         <div class="timeline-time">13:15 — Historia 7: ¡LA REVELACIÓN MÁGICA!</div>
                         <h3 class="timeline-title">💎 Revelar el Brillo Espejo Truss</h3>
                         <p class="timeline-desc">
-                            <strong>Qué Grabar:</strong> Toma de la Transición 2 (Lens Block). Inicia grabando con la botella de Truss tocando el lente del S22+ (pantalla en negro) y retírala rápidamente hacia atrás para descubrir a la modelo sonriendo y presumiendo un cabello ultra brillante sin frizz.<br>
+                            <strong>Qué Grabar:</strong> Toma de la Transición 2 (Lens Block).<br>
+                            <strong>Estabilizador:</strong> <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF (Lens Block)</span>. Inicia grabando con la botella de Truss tocando el lente del S22+ (pantalla en negro) y retírala rápidamente hacia atrás para descubrir a la modelo sonriendo y presumiendo un cabello ultra brillante sin frizz.<br>
                             <strong>Publicación en Vivo:</strong> Sube la Historia 7. El beat de la música debe explotar justo cuando retiras el envase.<br>
                             <strong>Texto en pantalla:</strong> <em>"¡BOMBA! Reconstrucción Truss con Brillo Espejo. ¡Miren esta soltura y salud capilar! 😍💎"</em>
                         </p>
@@ -1335,6 +1423,7 @@
                         <h3 class="timeline-title">📈 Llamado a la Acción B2B</h3>
                         <p class="timeline-desc">
                             <strong>Qué Grabar:</strong> Toma 10 (Testimonio final). El peluquero y la modelo sonrientes sosteniendo la línea Truss.<br>
+                            <strong>Estabilizador:</strong> <span class="mode-badge badge-lock"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> LOCK</span>.<br>
                             <strong>Audio (DJI Mic):</strong> El peluquero diciendo: <em>"Trabajar con Truss en Dos Soles es otro nivel. Si querés capacitarte o conseguir la línea en tu salón, tocá el enlace aquí abajo"</em>.<br>
                             <strong>Publicación en Vivo:</strong> Sube la Historia 8 agregando un **Sticker de Enlace** al WhatsApp de ventas.<br>
                             <strong>Texto en pantalla:</strong> <em>"Escribí 'QUIERO TRUSS' y te mandamos el catálogo por privado"</em>.
@@ -1363,49 +1452,49 @@
                     <div class="timeline-item">
                         <div class="timeline-time">09:00 - Historia 1: El Gancho (Expectativa)</div>
                         <h4 class="timeline-title">La Llegada al Centro Técnico</h4>
-                        <p class="timeline-desc"><strong>Video:</strong> Toma 1 (Entrada dinámica al local con el gimbal).<br><strong>Texto sugerido:</strong> <em>"¡Buen día! Hoy nos vinimos al Centro Técnico de Dos Soles porque se viene algo increíble con TRUSS... 💆‍♀️✨"</em><br><strong>Música:</strong> Un beat moderno de ritmo medio.</p>
+                        <p class="timeline-desc"><strong>Video:</strong> Toma 1 (Entrada dinámica al local).<br><strong>Estabilizador:</strong> <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span><br><strong>Texto sugerido:</strong> <em>"¡Buen día! Hoy nos vinimos al Centro Técnico de Dos Soles porque se viene algo increíble con TRUSS... 💆‍♀️✨"</em><br><strong>Música:</strong> Un beat moderno de ritmo medio.</p>
                     </div>
 
                     <div class="timeline-item">
                         <div class="timeline-time">09:15 - Historia 2: El Protagonista</div>
                         <h4 class="timeline-title">Presentando al Experto</h4>
-                        <p class="timeline-desc"><strong>Video:</strong> Toma 2 (Peluquero ordenando) + Toma 3 (Altar Truss).<br><strong>Audio (DJI Mic):</strong> El peluquero presentándose a la cámara, muy nítido: <em>"¡Hola a todos! Hoy vamos a mostrar la magia técnica de coloración y reconstrucción Truss..."</em><br><strong>Texto:</strong> <em>"Hoy nos acompaña [Nombre del Estilista] para mostrarnos la magia de Truss."</em></p>
+                        <p class="timeline-desc"><strong>Video:</strong> Toma 2 (Peluquero ordenando) + Toma 3 (Altar Truss).<br><strong>Estabilizador:</strong> <span class="mode-badge badge-lock"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> LOCK</span> / <span class="mode-badge badge-pf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><rect x="3" y="8" width="18" height="8" rx="4"/></svg> PF</span><br><strong>Audio (DJI Mic):</strong> El peluquero presentándose a la cámara, muy nítido: <em>"¡Hola a todos! Hoy vamos a mostrar la magia técnica de coloración y reconstrucción Truss..."</em><br><strong>Texto:</strong> <em>"Hoy nos acompaña [Nombre del Estilista] para mostrarnos la magia de Truss."</em></p>
                     </div>
 
                     <div class="timeline-item">
                         <div class="timeline-time">10:00 - Historia 3: La Alquimia</div>
                         <h4 class="timeline-title">La Preparación de Fórmulas</h4>
-                        <p class="timeline-desc"><strong>Video:</strong> Toma 5 (Macro de la mezcla cremosa batida en el bowl).<br><strong>Transición:</strong> Termina la historia girando el celu rápido a la derecha (Whip Pan).<br><strong>Texto:</strong> <em>"Preparando la fórmula perfecta de Truss. Miren esta textura... 🧪🎨"</em></p>
+                        <p class="timeline-desc"><strong>Video:</strong> Toma 5 (Macro de la mezcla cremosa batida en el bowl).<br><strong>Estabilizador:</strong> <span class="mode-badge badge-fpv"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="7"/><path d="M7.5 7.5l9 9M16.5 7.5l-9 9"/></svg> FPV</span> (Con transición Whip Pan)<br><strong>Transición:</strong> Termina la historia girando el celu rápido a la derecha (Whip Pan).<br><strong>Texto:</strong> <em>"Preparando la fórmula perfecta de Truss. Miren esta textura... 🧪🎨"</em></p>
                     </div>
 
                     <div class="timeline-item">
                         <div class="timeline-time">10:30 - Historia 4: La Aplicación</div>
                         <h4 class="timeline-title">Tip Técnico Educativo</h4>
-                        <p class="timeline-desc"><strong>Video:</strong> Toma 6 (Aplicación del tinte). Inicia con el final del Whip Pan.<br><strong>Audio (DJI Mic):</strong> El estilista dando un tip técnico rápido de 10 segundos sobre la aplicación uniforme en secciones finas para nutrir bien.<br><strong>Texto:</strong> <em>"Tip de experto: Saturar la fibra para reconstruir desde adentro."</em></p>
+                        <p class="timeline-desc"><strong>Video:</strong> Toma 6 (Aplicación del tinte). Inicia con el final del Whip Pan.<br><strong>Estabilizador:</strong> <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span><br><strong>Audio (DJI Mic):</strong> El estilista dando un tip técnico rápido de 10 segundos sobre la aplicación uniforme en secciones finas para nutrir bien.<br><strong>Texto:</strong> <em>"Tip de experto: Saturar la fibra para reconstruir desde adentro."</em></p>
                     </div>
 
                     <div class="timeline-item">
                         <div class="timeline-time">11:30 - Historia 5: El Lavado Sensorial</div>
                         <h4 class="timeline-title">Relajación Absoluta</h4>
-                        <p class="timeline-desc"><strong>Video:</strong> Toma 7 y 8 (Agua corriendo y masaje capilar en cámara lenta).<br><strong>Estilo:</strong> Audio del salón silenciado. Música zen súper suave de fondo para un efecto relajante.<br><strong>Texto:</strong> <em>"Momento de relax e hidratación en el lavacabezas... ¿sentís el aroma? 💆‍♀️💦"</em></p>
+                        <p class="timeline-desc"><strong>Video:</strong> Toma 7 y 8 (Agua corriendo y masaje capilar en cámara lenta).<br><strong>Estabilizador:</strong> <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span><br><strong>Estilo:</strong> Audio del salón silenciado. Música zen súper suave de fondo para un efecto relajante.<br><strong>Texto:</strong> <em>"Momento de relax e hidratación en el lavacabezas... ¿sentís el aroma? 💆‍♀️💦"</em></p>
                     </div>
 
                     <div class="timeline-item">
                         <div class="timeline-time">12:45 - Historia 6: La Tensión</div>
                         <h4 class="timeline-title">Generando Expectativa de Cambio</h4>
-                        <p class="timeline-desc"><strong>Video:</strong> Toma 9 (Viento en cámara lenta volando el pelo).<br><strong>Interactividad:</strong> Agrega sticker de encuesta interactiva: <em>"¿Lacio o con Ondas?"</em> o <em>"¿Quieren ver el resultado?"</em>.<br><strong>Texto:</strong> <em>"El secado final... ¡miren este brillo! Falta poco para revelar el look."</em></p>
+                        <p class="timeline-desc"><strong>Video:</strong> Toma 9 (Viento en cámara lenta volando el pelo).<br><strong>Estabilizador:</strong> <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span><br><strong>Interactividad:</strong> Agrega sticker de encuesta interactiva: <em>"¿Lacio o con Ondas?"</em> o <em>"¿Quieren ver el resultado?"</em>.<br><strong>Texto:</strong> <em>"El secado final... ¡miren este brillo! Falta poco para revelar el look."</em></p>
                     </div>
 
                     <div class="timeline-item">
                         <div class="timeline-time">13:15 - Historia 7: ¡LA REVELACIÓN MÁGICA!</div>
                         <h4 class="timeline-title">Antes y Después Dinámico</h4>
-                        <p class="timeline-desc"><strong>Video:</strong> Transición 2 (Lens Block). El peluquero retira el frasco de Truss pegado al lente y revela a la modelo sonriente con el Brillo Espejo impecable.<br><strong>Texto:</strong> <em>"¡BOMBA! Reconstrucción y coloración Truss con Brillo Espejo. Miren esta soltura... 😍💎"</em><br><strong>Música:</strong> El beat explota justo al retirar el envase.</p>
+                        <p class="timeline-desc"><strong>Video:</strong> Transición 2 (Lens Block). El peluquero retira el frasco de Truss pegado al lente y revela a la modelo sonriente con el Brillo Espejo impecable.<br><strong>Estabilizador:</strong> <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF (Lens Block)</span><br><strong>Texto:</strong> <em>"¡BOMBA! Reconstrucción y coloración Truss con Brillo Espejo. Miren esta soltura... 😍💎"</em><br><strong>Música:</strong> El beat explota justo al retirar el envase.</p>
                     </div>
 
                     <div class="timeline-item">
                         <div class="timeline-time">13:45 - Historia 8: Cierre y Venta</div>
                         <h4 class="timeline-title">Llamado a la Acción</h4>
-                        <p class="timeline-desc"><strong>Video:</strong> Toma 10 (Testimonio final estilista + modelo).<br><strong>Audio (DJI Mic):</strong> El peluquero invitando a los profesionales a capacitarse en Dos Soles o a adquirir la línea.<br><strong>Interactividad:</strong> Sticker de enlace al WhatsApp o texto: <em>"Escribí QUIERO TRUSS y te mandamos el catálogo por privado"</em>.</p>
+                        <p class="timeline-desc"><strong>Video:</strong> Toma 10 (Testimonio final estilista + modelo).<br><strong>Estabilizador:</strong> <span class="mode-badge badge-lock"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> LOCK</span><br><strong>Audio (DJI Mic):</strong> El peluquero invitando a los profesionales a capacitarse en Dos Soles o a adquirir la línea.<br><strong>Interactividad:</strong> Sticker de enlace al WhatsApp o texto: <em>"Escribí QUIERO TRUSS y te mandamos el catálogo por privado"</em>.</p>
                     </div>
                 </div>
 
@@ -1416,7 +1505,10 @@
                     <div class="transition-item-card">
                         <div class="transition-text-content">
                             <h3>Reel A: El Antes y Después Rápido (3-10 seg)</h3>
-                            <p style="color: var(--text-secondary); font-size: 0.9rem;">Un Reel corto, enérgico y altamente visual enfocado en llamar la atención de nuevos estilistas y salones clientes.</p>
+                            <div style="margin-top: 5px; margin-bottom: 8px;">
+                                <span class="mode-badge badge-ptf"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF (Lens Block)</span>
+                            </div>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">Un Reel corto, enérgico and altamente visual enfocado en llamar la atención de nuevos estilistas y salones clientes.</p>
                             <div class="transition-step-box">
                                 <h4>Estructura de Edición</h4>
                                 <p>0-2s: Pelo seco/opaco antes del tratamiento (con frasco Truss pegado al celu) ➡️ 2-3s: El envase cubre por completo y descubre la lente ➡️ 3-10s: Montaje ultra dinámico de la modelo feliz presumiendo su cabello brillante en cámara lenta con música viral.</p>
@@ -1431,10 +1523,14 @@
                     <div class="transition-item-card">
                         <div class="transition-text-content">
                             <h3>Reel B: Mini-Clase Técnica B2B (Tip de Experto para Estilistas)</h3>
+                            <div style="margin-top: 5px; margin-bottom: 8px;">
+                                <span class="mode-badge badge-ptf" style="margin-right: 5px;"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg> PTF</span>
+                                <span class="mode-badge badge-lock"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" style="margin-right:3px; vertical-align:middle;"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> LOCK</span>
+                            </div>
                             <p style="color: var(--text-secondary); font-size: 0.9rem;">Un formato altamente educativo que atrae a dueños de salones y estilistas profesionales porque resuelve un dolor de cabeza técnico real, posicionando a Dos Soles como líder en capacitación y Truss como la herramienta indispensable.</p>
                             <div class="transition-step-box">
                                 <h4>Estructura de Edición</h4>
-                                <p>0-3s: Gancho B2B con un problema del salón (ej. *"¿Cómo decolorar un cabello sensibilizado sin romper la fibra?"* o *"¿Falta de brillo tras teñir? Evitalo así..."*) ➡️ 3-15s: Plano cerrado del peluquero aplicando la ampolla o mezcla Truss y explicando su química protectora en el Centro Técnico (audio DJI Mic ultra nítido) ➡️ 15-20s: Llamado a la acción: *"Comentá CURSO para recibir la info de nuestro próximo taller técnico"*.</p>
+                                <p>0-3s: Gancho B2B con un problemón del salón (ej. *"¿Cómo decolorar un cabello sensibilizado sin romper la fibra?"* o *"¿Falta de brillo tras teñir? Evitalo así..."*) ➡️ 3-15s: Plano cerrado del peluquero aplicando la ampolla o mezcla Truss y explicando su química protectora en el Centro Técnico (audio DJI Mic ultra nítido) ➡️ 15-20s: Llamado a la acción: *"Comentá CURSO para recibir la info de nuestro próximo taller técnico"*.</p>
                             </div>
                         </div>
                         <div class="transition-image-container">
