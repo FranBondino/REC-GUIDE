@@ -825,6 +825,7 @@
             <button class="tab-btn" onclick="switchTab('shotlist')">📸 Shot List</button>
             <button class="tab-btn" onclick="switchTab('cronograma')">📅 Cronograma</button>
             <button class="tab-btn" onclick="switchTab('redes')">📱 Estrategia Instagram</button>
+            <button class="tab-btn" onclick="switchTab('pruebas')">🧪 Pruebas y Modos</button>
         </nav>
 
         <!-- --- TAB: CONFIGURACIÓN --- -->
@@ -1315,6 +1316,158 @@
                             <li><span>Slide 5 (Comparativa)</span>: Foto Antes y Después de la modelo. *"El resultado técnico impecable que tus clientes buscan"*.</li>
                             <li><span>Slide 6 (Cierre)</span>: *"Seguinos para enterarte de nuestros próximos cursos técnicos en Dos Soles"*.</li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- --- TAB: PRUEBAS EN CASA Y MODOS --- -->
+        <div id="pruebas" class="tab-content">
+            <div class="glass-card">
+                <div class="card-header">
+                    <div class="card-icon">🧪</div>
+                    <h2>Modos del Estabilizador y Plan de Ensayos en Casa</h2>
+                </div>
+                <p style="color: var(--text-secondary); margin-bottom: 25px;">Configura tu DJI Osmo Mobile según la simbología oficial de tu manual y realiza estas 4 pruebas antes de salir mañana hacia Dos Soles:</p>
+
+                <!-- TABLA DE MODOS DJI -->
+                <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.3rem; color: var(--accent-gold); margin-bottom: 15px; border-left: 4px solid var(--accent-gold); padding-left: 12px;">1. Modos Oficiales del DJI Osmo Mobile</h3>
+                <div class="analogies-grid" style="margin-bottom: 45px;">
+                    <!-- PTF -->
+                    <div class="analogy-card" style="border-left: 3px solid var(--accent-gold);">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 15px;">
+                            <span class="analogy-tag">Modo PTF</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="color: var(--accent-gold);"><circle cx="12" cy="12" r="6"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg>
+                        </div>
+                        <h3>Pan & Tilt Follow</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;"><strong>Efecto en el manual:</strong> ① + ②</p>
+                        <p>El celular sigue tus giros horizontales y verticales. El horizonte se mantiene recto. <strong>Es el modo estándar para caminar y hacer seguimientos fluidos.</strong></p>
+                    </div>
+
+                    <!-- PF -->
+                    <div class="analogy-card" style="border-left: 3px solid var(--accent-blue);">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 15px;">
+                            <span class="analogy-tag" style="background: rgba(59,130,246,0.1); color: var(--accent-blue);">Modo PF</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="color: var(--accent-blue);"><rect x="3" y="8" width="18" height="8" rx="4"/></svg>
+                        </div>
+                        <h3>Pan Follow</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;"><strong>Efecto en el manual:</strong> ①</p>
+                        <p>El celular solo te sigue hacia los lados. El movimiento arriba/abajo queda completamente bloqueado. <strong>Perfecto para enfocar productos en una mesa o barra técnica.</strong></p>
+                    </div>
+
+                    <!-- FPV -->
+                    <div class="analogy-card" style="border-left: 3px solid var(--accent-purple);">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 15px;">
+                            <span class="analogy-tag" style="background: rgba(139,92,246,0.1); color: var(--accent-purple);">Modo FPV</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="color: var(--accent-purple);"><circle cx="12" cy="12" r="7"/><path d="M7.5 7.5l9 9M16.5 7.5l-9 9"/></svg>
+                        </div>
+                        <h3>3D Follow / FPV</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;"><strong>Efecto en el manual:</strong> ① + ② + ③</p>
+                        <p>El celular sigue tus movimientos en todas las direcciones, incluyendo inclinaciones laterales de tu muñeca. <strong>Obligatorio para transiciones de giros o barridos rápidos.</strong></p>
+                    </div>
+
+                    <!-- SpinShot -->
+                    <div class="analogy-card" style="border-left: 3px solid var(--accent-green);">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 15px;">
+                            <span class="analogy-tag" style="background: rgba(16,185,129,0.1); color: var(--accent-green);">SpinShot</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="color: var(--accent-green);"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l.73-1.19"/></svg>
+                        </div>
+                        <h3>Giro Electrónico 360°</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;"><strong>Efecto en el manual:</strong> ① + ② + ③ + ④</p>
+                        <p>Al mover el joystick hacia los lados, el teléfono gira de forma cilíndrica. <strong>Permite realizar tomas de transición en espiral del cabello muy dinámicas.</strong></p>
+                    </div>
+
+                    <!-- Lock -->
+                    <div class="analogy-card" style="border-left: 1px solid var(--text-secondary);">
+                        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 15px;">
+                            <span class="analogy-tag" style="background: rgba(255,255,255,0.05); color: var(--text-secondary);">Lock</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="color: var(--text-secondary);"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                        </div>
+                        <h3>Modo Bloqueado</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 8px;"><strong>Efecto en el manual:</strong> Bloqueado</p>
+                        <p>El celular queda apuntando rígidamente hacia una sola dirección, ignorando los giros de tu mano. <strong>Ideal para simular tomas estables montadas sobre trípode.</strong></p>
+                    </div>
+                </div>
+
+                <!-- ENTRENAMIENTO EN CASA -->
+                <h3 style="font-family: 'Outfit', sans-serif; font-size: 1.3rem; color: var(--accent-blue); margin-bottom: 15px; border-left: 4px solid var(--accent-blue); padding-left: 12px;">2. Plan de Ensayos y Mockups en Casa</h3>
+                <p style="color: var(--text-secondary); margin-bottom: 25px; font-size: 0.95rem;">Busca elementos cotidianos en tu casa para practicar los movimientos y transiciones de mañana. Observa las fotos ilustrativas al lado de cada práctica técnica:</p>
+
+                <div class="transitions-grid">
+                    <!-- Prueba A: Textura -->
+                    <div class="transition-item-card">
+                        <div class="transition-text-content">
+                            <h3>Prueba A: Toma Macro de Textura ("La Alquimia")</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">Simula la mezcla del producto en el bowl usando una taza de café batido o detergente con espuma en la cocina.</p>
+                            <div class="transition-step-box">
+                                <h4>🕹️ Configuración del Gimbal</h4>
+                                <p>Modo <strong>PTF (Pan & Tilt Follow)</strong>. Celular a 15 cm de la taza.</p>
+                            </div>
+                            <div class="transition-step-box">
+                                <h4>🚶‍♂️ Técnica de Movimiento</h4>
+                                <p>Da un paso adelante de forma ultra lenta en 5 segundos con rodillas flexionadas (caminata ninja). En CapCut, ralentiza a 0.5x a 60 FPS.</p>
+                            </div>
+                        </div>
+                        <div class="transition-image-container">
+                            <img src="truss_home_texture_1780286714591.png" alt="Prueba de Textura en Casa">
+                        </div>
+                    </div>
+
+                    <!-- Prueba B: Látigo -->
+                    <div class="transition-item-card">
+                        <div class="transition-text-content">
+                            <h3>Prueba B: Transición de Látigo Rápido (Whip Pan)</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">Practica conectar de forma fluida el living y la cocina simulando un barrido horizontal rápido.</p>
+                            <div class="transition-step-box">
+                                <h4>🕹️ Configuración del Gimbal</h4>
+                                <p>Modo <strong>FPV (3D Follow)</strong> para que responda instantáneamente a tus movimientos.</p>
+                            </div>
+                            <div class="transition-step-box">
+                                <h4>🚶‍♂️ Técnica de Movimiento</h4>
+                                <p>Clip A: Enfoca un adorno y gira tu muñeca de golpe hacia la derecha hasta difuminar el fondo. Clip B (en cocina): Inicia girando rápido y frena suavemente en seco frente a la taza.</p>
+                            </div>
+                        </div>
+                        <div class="transition-image-container">
+                            <img src="truss_home_whip_pan_1780286741409.png" alt="Prueba de Látigo Rápido en Casa">
+                        </div>
+                    </div>
+
+                    <!-- Prueba C: Bloqueo de Lente -->
+                    <div class="transition-item-card">
+                        <div class="transition-text-content">
+                            <h3>Prueba C: Transición de Bloqueo de Lente (Lens Block)</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">Practica tapar y destapar la lente usando cualquier envase o botella de baño para lograr una transición comercial invisible.</p>
+                            <div class="transition-step-box">
+                                <h4>🕹️ Configuración del Gimbal</h4>
+                                <p>Modo <strong>PTF (Pan & Tilt Follow)</strong> o <strong>PF (Pan Follow)</strong>.</p>
+                            </div>
+                            <div class="transition-step-box">
+                                <h4>🚶‍♂️ Técnica de Movimiento</h4>
+                                <p>Clip A: Sostén el envase a distancia media y empújalo de golpe contra el lente del S22+ (pantalla en negro). Clip B: Inicia con el envase pegado a la cámara y aléjalo en línea recta hacia atrás de forma rápida.</p>
+                            </div>
+                        </div>
+                        <div class="transition-image-container">
+                            <img src="truss_home_lens_block_1780286764757.png" alt="Prueba de Bloqueo de Lente en Casa">
+                        </div>
+                    </div>
+
+                    <!-- Prueba D: Bokeh -->
+                    <div class="transition-item-card">
+                        <div class="transition-text-content">
+                            <h3>Prueba D: Transición de Desenfoque (Bokeh Blur)</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">Simula el plano cinematográfico de revelado desenfocando luces cálidas del hogar.</p>
+                            <div class="transition-step-box">
+                                <h4>🕹️ Configuración del Gimbal</h4>
+                                <p>Modo <strong>PTF (Pan & Tilt Follow)</strong>.</p>
+                            </div>
+                            <div class="transition-step-box">
+                                <h4>🚶‍♂️ Técnica de Movimiento</h4>
+                                <p>Clip A: Enfoca luces traseras e introduce tu mano a 5 cm de la cámara para forzar el bokeh del fondo. Clip B: Apunta desenfocado al objeto final y toca la pantalla de tu Samsung para que logre la nitidez total.</p>
+                            </div>
+                        </div>
+                        <div class="transition-image-container">
+                            <img src="truss_home_bokeh_1780286785731.png" alt="Prueba de Desenfoque en Casa">
+                        </div>
                     </div>
                 </div>
             </div>
