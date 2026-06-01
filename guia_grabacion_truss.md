@@ -99,6 +99,28 @@ Presiona el botón "M" del gimbal para alternar entre modos:
 
 ---
 
+### 🔬 TEST DE 2 SEGUNDOS (Micro-diagnóstico en el Salón)
+Si estás en el salón técnico de Dos Soles y quieres verificar en 2 segundos si el gimbal está en el modo correcto sin mirar la pantalla de la app, haz este test físico rápido moviendo tu mano:
+
+* **Para comprobar modo [PTF ⌖] (Pan & Tilt Follow)**: Mueve el gimbal hacia los lados y arriba/abajo. El teléfono debe seguirte con suavidad. Ahora inclina tu muñeca hacia los lados (lateralmente): el teléfono debe mantenerse recto con el horizonte.
+* **Para comprobar modo [PF ⌂] (Pan Follow)**: Mueve el gimbal hacia los lados (debe seguirte). Mueve el gimbal hacia arriba/abajo: el teléfono debe quedarse apuntando fijo al frente sin subir ni bajar la mirada.
+* **Para comprobar modo [FPV 🖾] (3D Follow)**: Mueve el gimbal hacia los lados, arriba/abajo, e inclina tu muñeca lateralmente. El teléfono debe seguirte en todos los ángulos (incluyendo inclinación lateral/roll).
+* **Para comprobar modo [LOCK 🔒] (Bloqueado)**: Mueve tu mano en cualquier dirección. El teléfono debe quedarse inmóvil apuntando a un punto fijo del salón, como congelado.
+
+---
+
+### 📊 REGLA DE ORO: Joystick vs. Mano/Cuerpo
+Usa esta regla definitiva para saber cuándo usar los controles físicos del gimbal y cuándo confiar en tus propios movimientos corporales en Dos Soles:
+
+| Situación / Tipo de Plano | 🕹️ Joystick (Cuándo usar) | 🚶‍♂️ Mano y Cuerpo (Cuándo usar) |
+| :--- | :--- | :--- |
+| **Paneo Horizontal o Vertical Estático** (ej. Paneos lentos del Altar de Productos) | **SÍ (Recomendado)**. Apoya el gimbal en una mesa firme o trípode y usa el joystick para un barrido perfectamente lineal a velocidad constante. | **NO**. Generará pequeños rebotes si estás parado en un solo lugar intentando rotar el cuerpo. |
+| **Seguimientos Dinámicos** (ej. Seguir a la modelo caminando, tomas de lavado cenital) | **NO**. El joystick es muy rígido y lineal. Hace que la toma parezca artificial. | **SÍ (Recomendado)**. Camina con la *Caminata Ninja* y apunta la cámara girando y deslizando tu propio cuerpo de forma orgánica. |
+| **Transiciones Rápidas** (ej. Whip Pan o Spin Vortex) | **NO**. Los motores del joystick limitan la velocidad máxima. | **SÍ (Recomendado)**. Gira la muñeca de golpe físicamente en modo **FPV**. El motor te acompañará al instante con fuerza. |
+| **Toma Macro de Detalle de Textura** (ej. La Alquimia o gotas de producto) | **SÍ**. Para corregir milimétricamente el encuadre cerrado sin tener que reposicionar todo tu cuerpo. | **NO**. Un milímetro de vibración corporal en una toma tan de cerca se notará como un temblor gigante. |
+
+---
+
 ### 🎙️ PASO A PASO 3: DJI Mic (Audio)
 El audio representa el 50% del éxito de un video. El público tolera un video con grano, pero descarta de inmediato un video que se escucha mal.
 
@@ -205,6 +227,10 @@ Lleva este checklist contigo el lunes para asegurarte de no volver a casa con ma
 
 ### 🏢 Categoría A: Contexto e Introducción (El Gancho)
 * [ ] **Plano 1: La entrada dinámica** `[PTF ⌖]`: Camina con el gimbal hacia la entrada del centro técnico Dos Soles. Paso firme pero suave (caminata ninja).
+  * 🪜 **TÉCNICA DE ESCALERAS (Tip de Supervivencia):** Si para ingresar al salón tienes que subir escaleras:
+    1. **La Caminata de Resorte:** Apoya primero la punta del pie en el escalón y luego baja suavemente el talón, subiendo con un ritmo lento y constante (las piernas flexionadas actúan como suspensión).
+    2. **Suspensión Manual:** Mantén tu codo flexionado a 90 grados separado del torso (actuando como brazo hidráulico de grúa) y sujeta el gimbal con **ambas manos** para duplicar la estabilidad y absorber los saltos del eje Z (rebote vertical).
+    3. **Efecto de Cine Invertido (Under-slung):** Gira el gimbal completamente boca abajo (de cabeza). Graba a ras del suelo apuntando a los escalones mientras subes lentamente. Esto disimula el temblor vertical al 100% y genera un encuadre hiperprofesional espectacular.
 * [ ] **Plano 2: El Peluquero Estrella** `[LOCK 🔒]`: Plano medio del estilista ordenando los productos sobre la mesada. Pídele que mire a la cámara, sonría y salude con la mano.
 * [ ] **Plano 3: El Altar de Truss** `[PF ⌂]`: Toma general de la línea de productos Truss perfectamente ordenados bajo las luces del salón.
 
@@ -292,6 +318,69 @@ Sigue este itinerario paso a paso el lunes para coordinar las tomas con la publi
 
 ---
 
+## 🎨 5.1. Guía de Diseño, Tipografías y Menciones Premium en Instagram
+
+Optimiza la estética de tus historias para reflejar la calidad de alta gama de **Truss** y la identidad profesional de **Dos Soles** utilizando exclusivamente las herramientas nativas de la aplicación de Instagram:
+
+### 🏷️ 1. El Arte de Arrobar con Estilo (Menciones Premium)
+Mencionar a las marcas involucradas (**@dossoles.distribuidora** y **@trusshair** / **@trussprofessional**) es indispensable para que puedan compartir tus historias, multiplicando el alcance de tu trabajo. Aplica uno de estos 3 estilos para hacerlo de forma elegante:
+
+1. **La Mención Integrada (Recomendado - Limpio)**: 
+   Evita arrobar usando stickers gigantes y coloridos de Instagram. En su lugar, escribe el arroba directamente en el cuerpo del texto de tu copy usando la tipografía **Classic (Sans-Serif)**.
+   * *Ejemplo:* `¡Buen día! ☀️ Ya estamos en el Centro Técnico de @dossoles.distribuidora listos para un día de transformación con @trusshair ✨`
+   * *Tip de Color:* Usa la herramienta "gotero" de Instagram para pintar la mención con un tono que ya exista en el video (un tono blanco tiza o amarillo dorado cobrizo extraído del brillo del cabello), fundiendo la tipografía perfectamente en la imagen.
+2. **La Mención Fantasma (Ninja Style - Para tomas ultra limpias)**:
+   Si tienes un clip cinematográfico impecable en cámara lenta y quieres que las marcas lo compartan pero no quieres colocar ningún texto que tape la imagen:
+   * Escribe los arrobas: **@dossoles.distribuidora** y **@trusshair**.
+   * Con dos dedos sobre la pantalla, pellizca el texto hasta hacerlo **microscópico (invisible al ojo)**.
+   * Arrastra el arroba hacia un costado de la pantalla o escóndelo detrás de un Sticker de Encuesta/Enlace. Las marcas recibirán la notificación al instante para compartir la historia, pero tu video se verá limpio, profesional e inmaculado de textos.
+3. **El Botón Interactivo de Marca**:
+   Si quieres que la gente toque la mención de la distribuidora para comprar, escribe **@dossoles.distribuidora** en el modo de texto clásico y activa el fondo rectangular blanco de la tipografía. Redúcelo a un tamaño sutil y colócalo abajo al centro. Actúa como un botón estético y elegante que invita a hacer clic.
+
+### ✍️ 2. El Sistema de Tipografías Premium (Font Pairings)
+Instagram ofrece 9 fuentes nativas. Si las mezclas de forma aleatoria, tus historias se verán descuidadas. Para Dos Soles, implementa estrictamente una de estas dos fórmulas de combinación tipográfica:
+
+* **FÓRMULA A: "Alta Moda Editorial" (Serif + Classic spaced)**
+  * *Uso principal:* Historias de revelación de look final, tips técnicos B2B, y frases destacadas.
+  * *Título:* Usa la fuente **Editor** (fuente número 9, estilo elegante con Serif) en minúsculas y cursiva. Escribe textos cortos (ej: *la alquimia del color* o *brillo espejo*).
+  * *Subtítulo:* Justo abajo, escribe una descripción corta con la fuente **Classic** (fuente número 1, Sans-serif) en **MAYÚSCULAS** y agrega espacios manuales entre letras para darle aire. (ej: `D E T A L L E   T É C N I C O` o `C A P A C I T A C I Ó N   T R U S S`).
+  * *Resultado:* Look de revista de moda de alto nivel, ideal para salones de belleza premium.
+* **FÓRMULA B: "Estilo Dinámico Moderno" (Strong + Neon accent)**
+  * *Uso principal:* Historias de procesos rápidos en vivo, unboxing de productos, y llamadas a la acción rápidas.
+  * *Título:* Usa la fuente **Strong** (fuente Sans-serif negrita) en mayúsculas con el fondo de color activado en negro translúcido para asegurar legibilidad.
+  * *Palabra clave:* Agrega un pequeño acento manuscrito con la fuente **Neon** (fuente cursiva manuscrita) superpuesta ligeramente inclinada en una esquina para destacar una palabra clave (ej: *magia*, *increíble*, *hoy*).
+
+### 💬 3. Biblioteca Completa de Captions e Interactividad (Historia por Historia)
+Lleva esta lista de copys listos para copiar y pegar directamente sobre tus videos para no perder tiempo redactando el lunes:
+
+* **09:00 — Historia 1 (El Gancho)**:
+  * *Texto:* `¡Buen día! ☀️ Ya estamos en el Centro Técnico de @dossoles.distribuidora listos para revelar el poder de la reconstrucción activa con @trusshair 💆‍♀️✨`
+  * *Estilo:* Fórmula A (Título cursiva elegante, subtítulo clásico spaced).
+  * *Ubicación:* Esquina superior izquierda.
+* **09:15 — Historia 2 (El Protagonista)**:
+  * *Texto:* `Hoy nos acompaña el gran @estilista para mostrarnos los secretos técnicos detrás del Brillo Espejo de Truss 🔬🎨`
+  * *Estilo:* Mención Integrada. Gotero de color para pintar el arroba del estilista a tono.
+* **10:00 — Historia 3 (La Alquimia)**:
+  * *Texto:* `La alquimia perfecta. 🧪 Mezclando nutrición profunda para restaurar la cutícula capilar desde adentro. #TrussHair`
+  * *Estilo:* Fuente Classic spaced colocada abajo a la izquierda.
+* **10:30 — Historia 4 (Tip Técnico)**:
+  * *Texto:* `Tip de experto: Saturación homogénea en secciones finas para garantizar una nutrición pareja y duradera 💎✨`
+  * *Estilo:* Fórmula B (Strong en mayúsculas + palabra acento *secreto* en Neon cursiva).
+* **11:30 — Historia 5 (Lavacabezas)**:
+  * *Texto:* `Silencio... 🤫 momento de relajación absoluta y sellado térmico capilar en @dossoles.distribuidora 💆‍♀️💦`
+  * *Estilo:* Oculta las menciones con la técnica de la *Mención Fantasma* para que el plano zen cenital del agua luzca inmaculado.
+* **12:45 — Historia 6 (La Tensión)**:
+  * *Texto:* `El secado final... ¡Miren cómo vuela este cabello sin frizz! ¿Qué dicen... Lacio perfecto o con Ondas? 👇🗳️`
+  * *Estilo:* Inserta un **Sticker de Encuesta Interactiva** nativo de Instagram con dos botones: [Lacio Perfecto 😍] / [Ondas con Onda! ✨].
+* **13:15 — Historia 7 (¡La Revelación!)**:
+  * *Texto:* `¡BOMBA! 💣 Reconstrucción profunda Truss con Brillo Espejo real. Miren esta soltura, salud capilar y movimiento... ¡Un sueño! 😍✨ @trusshair`
+  * *Estilo:* Mención destacada con botón rectangular blanco elegante abajo en el centro.
+* **13:45 — Historia 8 (Cierre y Ventas)**:
+  * *Texto:* `¿Querés llevar los tratamientos de @trusshair a tu salón o capacitarte en el Centro Técnico de @dossoles.distribuidora? Escribí QUIERO TRUSS y te mandamos catálogo y fechas por privado 📲👇`
+  * *Estilo:* Agrega el **Sticker de Enlace** nativo con el link directo al WhatsApp de ventas de Dos Soles, personalizado con el texto del botón: `Consultar Catálogo Truss 📲`.
+
+---
+
 ## ✂️ 6. Flujo de Edición Rápida y Profesional (CapCut)
 
 Para armar tus videos de manera profesional y rápida desde tu teléfono, descarga la app **CapCut** (es gratuita y la más usada en la industria móvil). Sigue estos pasos para procesar tu material a 60 FPS:
@@ -328,51 +417,48 @@ Antes de salir de tu casa el lunes por la mañana, verifica que tengas todo esto
 
 ---
 
-## 🧪 8. Plan de Ensayos y Mockups en Casa (Práctica Previa)
+## 🧪 8. Protocolo de Pruebas de Campo en el Salón (On-Site Pre-Flight Check)
 
-Configura tu DJI Osmo Mobile según la simbología oficial y realiza estas 4 prácticas en tu hogar hoy antes de salir mañana para Dos Soles. Entrenarás tu memoria muscular e irás 100% seguro.
+No inicies la grabación real el lunes sin completar este protocolo de pruebas rápidas de 5 minutos directamente en el salón técnico de Dos Soles. Esto te evitará volver a casa con audio saturado por los secadores o tomas temblorosas por falta de balanceo.
 
-### ☕ Prueba A: Toma Macro de Textura ("La Alquimia") `[PF ⌂]`
-* **Objetivo Técnico**: Simular la mezcla cremosa del tinte.
-* **Elementos Caseros**: Usa un tazón o taza, jabón líquido blanco cremoso, crema de afeitar o café instantáneo batido con agua (para generar una espuma marrón densa y estética). Usa una cuchara o tenedor pequeño como tu pincel.
-* **Ajustes DJI e Hilera Samsung**: Configura el gimbal en modo **PF (Pan Follow)**. Esto bloquea el eje vertical para que no haya temblor arriba/abajo. Graba a **60 FPS** a una distancia de 15 a 20 cm del bowl.
-* **Técnica de Movimiento**: Inicia con el tenedor quieto sobre la espuma. Realiza una **caminata ninja** (flexiona rodillas, apoya talón y desliza suavemente tus pies en línea recta) para acercar la cámara lentamente al bowl en 5 segundos. Al mismo tiempo, comienza a batir la espuma de forma circular y rítmica.
-* **Autoevaluación en CapCut**: Reduce la velocidad del clip a **0.5x** y activa **"Cámara lenta fluida"**. La mezcla debe verse ultra suave, cremosa y con una textura fluida brillante de alta gama. Si notas saltos verticales, significa que debes flexionar más las rodillas y pegar los codos firmemente contra tus costados.
-
----
-
-### 🏡 Prueba B: Transición de Látigo Rápido (Whip Pan) `[FPV 🖾]`
-* **Objetivo Técnico**: Conectar de forma dinámica dos ambientes distintos de tu casa mediante un movimiento de barrido físico borroso.
-* **Elementos Caseros**: Identifica dos rincones o ambientes en tu casa con objetos y colores bien contrastantes (por ejemplo, una planta verde en la esquina de tu sala y una taza de color sobre la mesada de tu cocina).
-* **Ajustes DJI e Hilera Samsung**: Gimbal obligatoriamente en modo **FPV (3D Follow)**. Este modo permite que los motores del gimbal sigan los movimientos rápidos de tu muñeca de forma instantánea, sin retraso de motor. Graba a **60 FPS** en el S22+.
-* **Técnica de Movimiento**:
-  * **Clip A (Sala)**: Enfoca la planta de forma estática por 3 segundos. Al terminar, gira bruscamente tu muñeca hacia la derecha de golpe, haciendo un barrido rápido hasta difuminar el fondo. Corta la grabación en pleno giro.
-  * **Clip B (Cocina)**: Con la cámara quieta, párate 90 grados a la izquierda de la taza. Dale a grabar, gira tu muñeca de golpe hacia la derecha y frena en seco de forma suave y limpia justo frente a la taza.
-* **Autoevaluación en CapCut**: Coloca ambos clips juntos en la línea de tiempo. Recorta el Clip A exactamente en el cuadro donde el giro es más rápido y borroso. Recorta el Clip B exactamente en el cuadro inicial donde el giro rápido de entrada apenas está deteniéndose frente a la taza. Al unirlos, el paso de un ambiente al otro debe verse instantáneo e imperceptible.
+### 🕹️ Prueba A: Test de Calibración e Inercia del Gimbal (DJI Osmo Mobile)
+* **Objetivo Técnico:** Asegurar que los motores no vibren ni se sobrecalienten, y que el horizonte de la cámara del S22+ esté 100% nivelado.
+* **Paso a Paso en el Salón:**
+  1. **Montaje Estático:** Sin encender el gimbal, acopla el S22+. Asegúrate de que el teléfono esté perfectamente centrado en la pinza (no debe estar cargado hacia un lado).
+  2. **Encendido en Plano:** Apoya el trípode del DJI Osmo sobre la mesa de productos (una superficie plana). Despliega el brazo y deja que se encienda solo.
+  3. **Auto-Calibración (⚠️ Muy Útil):** Si notas que la cámara está ligeramente inclinada hacia un costado:
+     * Abre la app DJI Mimo ➡️ Ve a *Ajustes* ➡️ Selecciona *Auto-Calibración del Gimbal*. Espera 10 segundos sin tocar el equipo. ¡El horizonte quedará perfecto!
+  4. **Test de Esfuerzo de Motores:** Toma el mango del gimbal con tu mano y realiza un paneo suave a los lados. Coloca tu oreja a 2 cm de los motores del gimbal: **no debe escucharse ningún zumbido agudo ni vibración física**. Si zumba, apágalo, vuelve a centrar la pinza magnética en el medio del celular y enciéndelo nuevamente.
+  5. **Verificación de Modos:** Presiona el botón "M" y realiza el *Test de 2 Segundos* (ver Sección 2) para verificar que el teléfono responde de forma exacta en los modos **PTF, PF, FPV y LOCK**.
 
 ---
 
-### 🧴 Prueba C: Transición de Bloqueo de Lente (Lens Block) `[PTF ⌖]`
-* **Objetivo Técnico**: Perfeccionar la transición invisible del antes y después usando un envase de producto para tapar físicamente la lente del celular.
-* **Elementos Caseros**: Toma cualquier botella cilíndrica o envase de tu baño (ej. acondicionador, shampoo o desodorante de tamaño mediano) para simular el frasco del producto Truss. Pídele a un amigo o familiar que lo maneje, o hazlo tú mismo con tu mano libre.
-* **Ajustes DJI e Hilera Samsung**: Configura el gimbal en modo **PTF (Pan & Tilt Follow)**. En tu Samsung S22+, haz un **Bloqueo de Foco**: mantén presionada la pantalla sobre tu fondo hasta que aparezca el círculo amarillo "Bloqueo AE/AF". Esto evita que la cámara intente enfocar a milímetros de la botella y genere un molesto parpadeo borroso.
-* **Técnica de Movimiento**:
-  * **Clip A (El Antes)**: Enfoca tu mano o mesa. Pídele a tu ayudante que empuje el envase con firmeza y rapidez en línea recta hacia la cámara del celular hasta tocar físicamente la lente trasera, dejando la pantalla 100% negra. Corta ahí.
-  * **Clip B (El Después)**: Coloca el envase pegado directamente sobre la lente del celular. Comienza a grabar y retira la botella en línea recta hacia atrás de forma rápida para revelar el nuevo look brillante.
-* **Autoevaluación en CapCut**: Importa los clips en CapCut. Recorta el Clip A exactamente en el cuadro donde la pantalla se vuelve completamente negra por el plástico del envase. Recorta el Clip B en el primer cuadro donde apenas empieza a separarse de la lente. La transición del "antes y después" debe fluir sin parpadeos ni destellos de luz intermedios.
+### 🎙️ Prueba B: Test de Micro y Ruido Ambiente Extremo (DJI Mic)
+* **Objetivo Técnico:** Encontrar el nivel de ganancia perfecto para aislar la voz del peluquero del zumbido infernal de los secadores de pelo.
+* **Paso a Paso en el Salón:**
+  1. **Acople Magnético:** Conecta el receptor en tu Samsung. Sujeta el transmisor al peluquero con el clip y **coloca obligatoriamente el cortavientos de felpa peluda (Deadcat)** girándolo hasta que trabe.
+  2. **La Prueba del Secador (⚠️ Crítica):** Pídele al peluquero que encienda un secador de pelo a potencia máxima a **1 metro de distancia** y simule que está peinando a la modelo mientras te habla por el micrófono.
+  3. **Ajuste del Receptor con la Ruedita de Ganancia (El Secreto de la Ruedita +-):**
+     * Mira la pantalla táctil de tu receptor DJI Mic. Verás una barra verde de volumen que sube y baja cuando el peluquero habla.
+     * **El Peligro:** Si la barra llega al color ROJO arriba del todo, el audio se romperá (saturación) y sonará horrible en Instagram.
+     * **El Ajuste:** Desliza el dedo en la pantalla táctil hacia arriba para entrar a los ajustes del micrófono. Busca el parámetro de **Ganancia del Transmisor (TX Gain)**.
+     * **La Regla del Salón:** Si el secador está muy cerca, usa el control en pantalla (o la ruedita física del receptor) para bajar la ganancia del micrófono a **-3 dB o -6 dB**. Si el ambiente está en silencio, puedes dejarlo en **0 dB**. Nunca lo subas a valores positivos (+3 dB o más) en el salón para no capturar los zumbidos de fondo.
+  4. **Monitoreo de Auriculares:** **¡ESTO ES OBLIGATORIO!** Ponte tus auriculares, graba un clip de prueba de 10 segundos con el secador prendido y reprodúcelo. La voz del peluquero debe escucharse con total claridad por encima del soplido del secador. Si el soplido es molesto, activa el **Corte Bajo (Low Cut / Low Cut Filter)** desde la pantalla del receptor para filtrar los graves del motor.
 
 ---
 
-### 💡 Prueba D: Transición de Desenfoque (Bokeh Blur) `[PTF ⌖]`
-* **Objetivo Técnico**: Entrenar a tus ojos y tus manos para forzar desenfoques artísticos de luces de fondo, logrando un aura cinematográfica de alta costura.
-* **Elementos Caseros**: Encuentra un fondo en tu casa que tenga pequeños focos de luz cálida (ej. luces navideñas, tiras de luces LED, focos del techo encendidos, o los reflejos del sol en las plantas del balcón/jardín).
-* **Ajustes DJI e Hilera Samsung**: Coloca tu gimbal en modo **PTF (Pan & Tilt Follow)**. Graba a **60 FPS**.
-* **Técnica de Movimiento**:
-  * **Clip A (El Proceso)**: Apunta tu S22+ a unos 2 metros del fondo iluminado. Sostén tu mano o un envase a tan solo 10 cm del celular. Toca la pantalla sobre ese objeto cercano para forzar a la cámara a enfocarlo, convirtiendo instantáneamente las luces del fondo en grandes y hermosos círculos dorados desenfocados (bokeh). Retira la mano lentamente y corta la toma mientras el fondo sigue desenfocado.
-  * **Clip B (El Look)**: Apunta al objeto final. Toca un punto muy cercano fuera de cuadro para que la lente inicie completamente desenfocada. Empieza a grabar y, a los 2 segundos, toca la pantalla sobre tu objeto final para que el autoenfoque del S22+ viaje suavemente hacia la nitidez total en 1 segundo.
-* **Autoevaluación en CapCut**: Une ambos clips justo en el punto medio del desenfoque. Al reproducirlo en CapCut, el video pasará suavemente de la escena anterior a una neblina artística de luces, para luego "abrir" el enfoque revelando tu objeto con un efecto publicitario de belleza sumamente premium.
+### 📱 Prueba C: Test de Grabación y Reflejo de Luces (Samsung S22+ en Salón)
+* **Objetivo Técnico:** Evitar destellos extraños de luz (lens flare) sobre la lente y asegurar que el enfoque óptico de retratos no parpadee.
+* **Paso a Paso en el Salón:**
+  1. **Limpieza Química de Lente:** Pasa el paño de microfibra por los tres lentes traseros del S22+. Los salones técnicos tienen micropartículas de spray para cabello suspendidas en el aire que se pegan a las lentes creando un velo borroso imperceptible a simple vista.
+  2. **Test de Enfoque con Reflectores:** Apunta la cámara a contraluz hacia la modelo bajo el reflector. Si notas que la cámara parpadea intentando hacer foco continuamente (focus hunting):
+     * Toca la pantalla del celular sobre el rostro de la modelo y **mantén el dedo presionado por 2 segundos** hasta que aparezca el candado amarillo **"Bloqueo AE/AF"**.
+     * Desliza el dedo hacia la izquierda o derecha en la barra de brillo que aparece abajo del candado para ajustar la iluminación a tu gusto y déjala bloqueada.
+  3. **Test de Saltos de Zoom (1x, 2x, 3x):** Abre la app de cámara y toca alternadamente los botones redondos de zoom (**1.0x, 2.0x y 3.0x**).
+     * Comprueba que la transición de imagen entre lentes ópticas sea suave.
+     * Recuerda que el **3.0x** es el único lente de teleobjetivo real del S22+ que te dará el detalle macro de texturas premium del bowl y brillo capilar sin arruinar la imagen con grano digital artificial.
 
 ---
 
-### ¡Mucha fuerza y éxito!
-Tienes en tus manos la mejor tecnología móvil actual. Confía en la estabilidad del gimbal, sé meticuloso con el audio, busca la luz brillante sobre el cabello y disfruta del proceso de aprendizaje. ¡Vas a crear un contenido del que Dos Soles y Truss estarán sumamente orgullosos! 🚀
+### ¡Mucha fuerza y éxito en el Salón!
+Tienes en tus manos un protocolo profesional de campo. Aplica estos 5 minutos de control técnico preventivo el lunes y verás cómo el nivel de tus historias de Instagram se eleva de inmediato a calidad cinematográfica. ¡Vas a crear un contenido del que Dos Soles y Truss estarán sumamente orgullosos! 🚀
