@@ -315,5 +315,51 @@ Antes de salir de tu casa el lunes por la mañana, verifica que tengas todo esto
 
 ---
 
+## 🧪 8. Plan de Ensayos y Mockups en Casa (Práctica Previa)
+
+Configura tu DJI Osmo Mobile según la simbología oficial y realiza estas 4 prácticas en tu hogar hoy antes de salir mañana para Dos Soles. Entrenarás tu memoria muscular e irás 100% seguro.
+
+### ☕ Prueba A: Toma Macro de Textura ("La Alquimia") `[PF ⌂]`
+* **Objetivo Técnico**: Simular la mezcla cremosa del tinte.
+* **Elementos Caseros**: Usa un tazón o taza, jabón líquido blanco cremoso, crema de afeitar o café instantáneo batido con agua (para generar una espuma marrón densa y estética). Usa una cuchara o tenedor pequeño como tu pincel.
+* **Ajustes DJI e Hilera Samsung**: Configura el gimbal en modo **PF (Pan Follow)**. Esto bloquea el eje vertical para que no haya temblor arriba/abajo. Graba a **60 FPS** a una distancia de 15 a 20 cm del bowl.
+* **Técnica de Movimiento**: Inicia con el tenedor quieto sobre la espuma. Realiza una **caminata ninja** (flexiona rodillas, apoya talón y desliza suavemente tus pies en línea recta) para acercar la cámara lentamente al bowl en 5 segundos. Al mismo tiempo, comienza a batir la espuma de forma circular y rítmica.
+* **Autoevaluación en CapCut**: Reduce la velocidad del clip a **0.5x** y activa **"Cámara lenta fluida"**. La mezcla debe verse ultra suave, cremosa y con una textura fluida brillante de alta gama. Si notas saltos verticales, significa que debes flexionar más las rodillas y pegar los codos firmemente contra tus costados.
+
+---
+
+### 🏡 Prueba B: Transición de Látigo Rápido (Whip Pan) `[FPV 🖾]`
+* **Objetivo Técnico**: Conectar de forma dinámica dos ambientes distintos de tu casa mediante un movimiento de barrido físico borroso.
+* **Elementos Caseros**: Identifica dos rincones o ambientes en tu casa con objetos y colores bien contrastantes (por ejemplo, una planta verde en la esquina de tu sala y una taza de color sobre la mesada de tu cocina).
+* **Ajustes DJI e Hilera Samsung**: Gimbal obligatoriamente en modo **FPV (3D Follow)**. Este modo permite que los motores del gimbal sigan los movimientos rápidos de tu muñeca de forma instantánea, sin retraso de motor. Graba a **60 FPS** en el S22+.
+* **Técnica de Movimiento**:
+  * **Clip A (Sala)**: Enfoca la planta de forma estática por 3 segundos. Al terminar, gira bruscamente tu muñeca hacia la derecha de golpe, haciendo un barrido rápido hasta difuminar el fondo. Corta la grabación en pleno giro.
+  * **Clip B (Cocina)**: Con la cámara quieta, párate 90 grados a la izquierda de la taza. Dale a grabar, gira tu muñeca de golpe hacia la derecha y frena en seco de forma suave y limpia justo frente a la taza.
+* **Autoevaluación en CapCut**: Coloca ambos clips juntos en la línea de tiempo. Recorta el Clip A exactamente en el cuadro donde el giro es más rápido y borroso. Recorta el Clip B exactamente en el cuadro inicial donde el giro rápido de entrada apenas está deteniéndose frente a la taza. Al unirlos, el paso de un ambiente al otro debe verse instantáneo e imperceptible.
+
+---
+
+### 🧴 Prueba C: Transición de Bloqueo de Lente (Lens Block) `[PTF ⌖]`
+* **Objetivo Técnico**: Perfeccionar la transición invisible del antes y después usando un envase de producto para tapar físicamente la lente del celular.
+* **Elementos Caseros**: Toma cualquier botella cilíndrica o envase de tu baño (ej. acondicionador, shampoo o desodorante de tamaño mediano) para simular el frasco del producto Truss. Pídele a un amigo o familiar que lo maneje, o hazlo tú mismo con tu mano libre.
+* **Ajustes DJI e Hilera Samsung**: Configura el gimbal en modo **PTF (Pan & Tilt Follow)**. En tu Samsung S22+, haz un **Bloqueo de Foco**: mantén presionada la pantalla sobre tu fondo hasta que aparezca el círculo amarillo "Bloqueo AE/AF". Esto evita que la cámara intente enfocar a milímetros de la botella y genere un molesto parpadeo borroso.
+* **Técnica de Movimiento**:
+  * **Clip A (El Antes)**: Enfoca tu mano o mesa. Pídele a tu ayudante que empuje el envase con firmeza y rapidez en línea recta hacia la cámara del celular hasta tocar físicamente la lente trasera, dejando la pantalla 100% negra. Corta ahí.
+  * **Clip B (El Después)**: Coloca el envase pegado directamente sobre la lente del celular. Comienza a grabar y retira la botella en línea recta hacia atrás de forma rápida para revelar el nuevo look brillante.
+* **Autoevaluación en CapCut**: Importa los clips en CapCut. Recorta el Clip A exactamente en el cuadro donde la pantalla se vuelve completamente negra por el plástico del envase. Recorta el Clip B en el primer cuadro donde apenas empieza a separarse de la lente. La transición del "antes y después" debe fluir sin parpadeos ni destellos de luz intermedios.
+
+---
+
+### 💡 Prueba D: Transición de Desenfoque (Bokeh Blur) `[PTF ⌖]`
+* **Objetivo Técnico**: Entrenar a tus ojos y tus manos para forzar desenfoques artísticos de luces de fondo, logrando un aura cinematográfica de alta costura.
+* **Elementos Caseros**: Encuentra un fondo en tu casa que tenga pequeños focos de luz cálida (ej. luces navideñas, tiras de luces LED, focos del techo encendidos, o los reflejos del sol en las plantas del balcón/jardín).
+* **Ajustes DJI e Hilera Samsung**: Coloca tu gimbal en modo **PTF (Pan & Tilt Follow)**. Graba a **60 FPS**.
+* **Técnica de Movimiento**:
+  * **Clip A (El Proceso)**: Apunta tu S22+ a unos 2 metros del fondo iluminado. Sostén tu mano o un envase a tan solo 10 cm del celular. Toca la pantalla sobre ese objeto cercano para forzar a la cámara a enfocarlo, convirtiendo instantáneamente las luces del fondo en grandes y hermosos círculos dorados desenfocados (bokeh). Retira la mano lentamente y corta la toma mientras el fondo sigue desenfocado.
+  * **Clip B (El Look)**: Apunta al objeto final. Toca un punto muy cercano fuera de cuadro para que la lente inicie completamente desenfocada. Empieza a grabar y, a los 2 segundos, toca la pantalla sobre tu objeto final para que el autoenfoque del S22+ viaje suavemente hacia la nitidez total en 1 segundo.
+* **Autoevaluación en CapCut**: Une ambos clips justo en el punto medio del desenfoque. Al reproducirlo en CapCut, el video pasará suavemente de la escena anterior a una neblina artística de luces, para luego "abrir" el enfoque revelando tu objeto con un efecto publicitario de belleza sumamente premium.
+
+---
+
 ### ¡Mucha fuerza y éxito!
 Tienes en tus manos la mejor tecnología móvil actual. Confía en la estabilidad del gimbal, sé meticuloso con el audio, busca la luz brillante sobre el cabello y disfruta del proceso de aprendizaje. ¡Vas a crear un contenido del que Dos Soles y Truss estarán sumamente orgullosos! 🚀
