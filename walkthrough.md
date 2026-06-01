@@ -38,9 +38,20 @@ Se han incorporado de forma exhaustiva y consistente todas las referencias visua
   * Se ejecutó el script `assemble.ps1` para sincronizar los archivos PNG actualizados en el directorio del espacio de trabajo.
   * Se realizó `git add`, `git commit` y `git push` a `origin main` para subir todos los recursos de marca a GitHub.
 
+### 5. Edición de Video Programática (Transición Lens Block con Remotion)
+* **Inicialización y Resolución de Entorno**:
+  * Se creó un proyecto de **Remotion** interactivo en la carpeta `scratch/truss-video-transition`.
+  * Se resolvió el error de pantalla en blanco en Windows desactivando los complementos nativos de **Tailwind CSS v4** (`@tailwindcss/webpack` y `@tailwindcss/oxide`) que fallaban al compilar dependencias opcionales de C/Rust, sustituyéndolos por estilos CSS puros e inline.
+* **Transición Lens Block y Muteo**:
+  * Se silenciaron todos los canales de audio (`muted={true}`) en ambos componentes `<Video>`.
+  * Se eliminó el corte directo (que se veía tosco) e implementó una **curva de interpolación de opacidad de 12 frames (6 frames antes y 6 después)** para crear una disolución a negro súper fluida (*fade-through-black*) que emula perfectamente el bloqueo físico de la lente con el producto.
+* **Compilación y Renderizado**:
+  * Se integró la nueva toma de WhatsApp (`WhatsApp Video 2026-06-01 at 20.00.54.mp4`) en formato H.264 para garantizar soporte nativo completo en navegadores HTML5.
+  * Se renderizó de manera exitosa el video final en alta definición utilizando la CLI de Remotion (`npx remotion render`), compilando los 573 fotogramas de la línea de tiempo en `output.mp4` (22 MB).
+
 ---
 
 ## 🧪 Verificación Realizada
 * **Verificación de Enlaces y Rutas**: Todas las imágenes se enlazan ahora de forma relativa en el HTML final, garantizando que el usuario pueda abrir la guía desde cualquier carpeta o servidor sin perder las capturas fotorrealistas.
-* **Visualización Directa**: Se abrieron automáticamente ambas imágenes editadas en el visor nativo de Windows mediante `Start-Process` en tiempo real para asegurar que la escala, contraste y posición del logo sean visualmente perfectos.
+* **Visualización Directa**: Se abrieron automáticamente ambas imágenes editadas en el visor nativo de Windows, y se ejecutó `Start-Process` para iniciar de inmediato la reproducción del video final compilado (`output.mp4`) en tu reproductor multimedia predeterminado.
 * **Validación de Git y Remoto**: Se confirmó que el push se realizó correctamente en la rama `main` en `https://github.com/FranBondino/REC-GUIDE.git`.
