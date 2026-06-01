@@ -245,30 +245,38 @@ Sigue este itinerario paso a paso el lunes para coordinar las tomas con la publi
   * **Texto en pantalla:** *"Hoy nos acompaña [Nombre del Estilista] para mostrarnos la magia técnica de Truss."*
 * **10:00 — Historia 3: La Alquimia (Preparación de la Mezcla)**:
   * **Acción:** Graba la Toma 5 (La Alquimia).
-  * **Estabilizador:** `[FPV 🖾]`. Enfoca de muy cerca el pincel batiendo el color Truss en el bowl de vidrio. A los 4 segundos, gira la muñeca rápido a la DERECHA (Whip Pan) y corta.
+  * **Estabilizador:** `[FPV 🖾]`. Enfoca de muy cerca el pincel batiendo el color Truss en el bowl de vidrio. A los 4 segundos, gira la muñeca rápido a la DERECHA haciendo un barrido físico borroso y corta la toma.
+  * **Transición de Salida:** **Whip Pan (Out - Hacia la Derecha)** ➡️ Conecta con la Historia 4.
   * **Publicación:** Sube esta toma a velocidad de cámara lenta (0.5x en CapCut) como Historia 3.
   * **Texto en pantalla:** *"Preparando la fórmula perfecta de Truss. Miren esta textura... 🧪🎨"*
 * **10:30 — Historia 4: Tip Técnico Educativo (Aplicación - B2B)**:
-  * **Acción:** Graba la Toma 6 (Aplicación del tinte). Inicia barriendo rápido de izquierda a derecha (final del Whip Pan) y frena el plano en las manos del estilista pasando el pincel.
-  * **Estabilizador:** `[PTF ⌖]`.
+  * **Acción:** Graba la Toma 6 (Aplicación del tinte).
+  * **Transición de Entrada:** **Whip Pan (In - De Izquierda a Derecha)** ➡️ Inicia la grabación barriendo rápido hacia la derecha y frena el plano suavemente en las manos del estilista pasando el pincel.
+  * **Estabilizador:** `[FPV 🖾]` (durante el barrido de entrada) ➡️ `[PTF ⌖]` (para la explicación).
   * **Audio (DJI Mic):** El estilista dando un tip técnico: *"El secreto de Truss es saturar bien las secciones finas para reconstruir los enlaces químicos de la cutícula"*.
+  * **Transición de Salida:** **Spin Vortex (Out - Giro 180° Izquierda)** ➡️ Al terminar de hablar, rota tu muñeca bruscamente hacia la izquierda haciendo que el plano gire con efecto vórtice y corta. Conecta con la Historia 5.
   * **Publicación:** Sube el clip como Historia 4.
   * **Texto en pantalla:** *"Tip de experto: Saturación homogénea en secciones finas."*
 * **11:30 — Historia 5: Momento Sensorial (Relajación en Lavacabezas)**:
-  * **Acción:** Graba la Toma 7 y 8 (Lavado Cenital). 
-  * **Estabilizador:** `[PTF ⌖]` apuntando directamente hacia abajo desde arriba de la cabeza. Capta la caída del agua y el masaje capilar con la espuma blanca en cámara lenta.
+  * **Acción:** Graba la Toma 7 y 8 (Lavado Cenital).
+  * **Transición de Entrada:** **Spin Vortex (In - Giro 180° Izquierda a Centro)** ➡️ Inicia grabando girando tu muñeca rápidamente hacia la izquierda y estabiliza el plano al instante apuntando cenitalmente al lavacabezas.
+  * **Estabilizador:** `[FPV 🖾]` (en el giro) ➡️ `[PTF ⌖]` (cenital apuntando hacia abajo). Capta la caída del agua y el masaje capilar con la espuma blanca en cámara lenta.
+  * **Transición de Salida:** **Bokeh Focus Blur (Out - Forzar Desenfoque)** ➡️ Acerca la lente muy cerca de la espuma o de una botella de Truss para forzar que el fondo se desenfoque por completo en burbujas artísticas y corta. Conecta con la Historia 6.
   * **Publicación:** Sube como Historia 5 silenciando el audio original del salón de teñido.
   * **Texto en pantalla:** *"Momento de relax e hidratación en el lavacabezas... ¿sentís el aroma? 💆‍♀️💦"*
   * **Música:** Agrega una melodía zen súper suave de fondo.
 * **12:45 — Historia 6: La Tensión (Secado y Viento)**:
-  * **Acción:** Graba la Toma 9 (Secador volando el pelo brillante a contraluz para que destaque cada hebra).
+  * **Acción:** Graba la Toma 9 (Secador volando el pelo brillante a contraluz).
+  * **Transición de Entrada:** **Bokeh Focus Blur (In - Recuperar Foco)** ➡️ Inicia la grabación con la lente forzadamente desenfocada y, a los 2 segundos, toca la pantalla de tu S22+ sobre el cabello de la modelo para que el autoenfoque viaje suavemente a la nitidez total del secado.
   * **Estabilizador:** `[PTF ⌖]`.
+  * **Transición de Salida:** **Lens Block (Out - Bloqueo de Cámara)** ➡️ Al finalizar, pídele al estilista que empuje una botella de *Truss Uso Obligatorio* rápido hacia la cámara hasta tocar la lente trasera protectora y taparla al 100% (pantalla a negro). Corta la toma. Conecta con la Historia 7.
   * **Publicación:** Sube la Historia 6 agregando un **Sticker de Encuesta Interactiva** (*"¿Lacio o con Ondas?"* o *"¿Quieren ver el resultado?"*).
   * **Texto en pantalla:** *"El secado final... ¡miren este brillo! Falta poco para revelar el look."*
 * **13:15 — Historia 7: ¡LA REVELACIÓN MÁGICA! (El Después)**:
-  * **Acción:** Transición 2 (Lens Block). Inicia grabando con la botella de Truss pegada al lente (pantalla en negro) y retírala rápidamente hacia atrás para descubrir a la modelo sonriendo y presumiendo un cabello ultra brillante sin frizz.
+  * **Acción:** Revelación de look final.
+  * **Transición de Entrada:** **Lens Block (In - Revelación desde Negro)** ➡️ Sostén la botella de Truss tapando la cámara (pantalla a negro) y, al dar a grabar, retírala rápidamente en línea recta hacia atrás para revelar el cabello ultra brillante, sin frizz y sedoso de la modelo sonriendo.
   * **Estabilizador:** `[PTF ⌖]`.
-  * **Publicación:** Sube la Historia 7. La música enérgica debe explotar justo cuando retiras el envase.
+  * **Publicación:** Sube la Historia 7. La música enérgica debe explotar con un beat-drop justo cuando retiras el envase.
   * **Texto en pantalla:** *"¡BOMBA! Reconstrucción Truss con Brillo Espejo. ¡Miren esta soltura y salud capilar! 😍💎"*
 * **13:45 — Historia 8: Cierre y Ventas (Llamado a la Acción B2B)**:
   * **Acción:** Graba la Toma 10 (Testimonio final). El peluquero y la modelo sonrientes sosteniendo la línea Truss.
